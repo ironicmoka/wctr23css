@@ -1,0 +1,2261 @@
+$color_1: #333;
+$color_2: hsl(11,99%,43%);
+$color_3: #333333;
+$color_4: #fff;
+$color_5: #a42840;
+$color_6: #ffe06c;
+$color_7: #da2902;
+$color_8: #666;
+$color_9: #f9b90e;
+$color_10: #8e001c;
+$color_11: #222;
+$color_12: #fac20a;
+$color_13: #da2901;
+$color_14: #f87e15;
+$font-family_1: 'Montserrat', sans-serif;
+$font-family_2: "Montserrat", "Helvetica", "Arial", sans-serif;
+$font-family_3: Raleway, sans-serif;
+$background-color_1: hsl(11,99%,43%);
+$background-color_2: #ff8200;
+$background-color_3: #da2901;
+$background-color_4: #fff;
+$background-color_5: #f9b90e;
+$background-color_6: #353535;
+$background-color_7: #a42840;
+$background-color_8: #aaa;
+$background-color_9: #da2902;
+$background-color_10: rgba(164,40,64,0.55);
+$background-color_11: #eee;
+$background-color_12: #8e001c;
+$background-color_13: transparent;
+$background-color_14: #f87e15;
+$border-color_1: #666;
+$border-color_2: transparent;
+$border-color_3: #fff;
+$border-bottom-color_1: #fff;
+
+/* Custom CSS from torino.wordcamp.org */
+/* Regole Generali */
+/* Logo WCTRN */
+/* Titolo Sito */
+/* fix for footer spagination */
+/* Homepage */
+/* parallasse home */
+/* Pagina Singola */
+/* Pagina Sponsor */
+/*
+p.ita:before {
+	background-image: url('https://2017.rome.wordcamp.org/files/2017/09/italy.png');
+}
+
+p.eng:before {
+	background-image: url('https://2017.rome.wordcamp.org/files/2017/09/united-kingdom.png');
+}*/
+/* Homepage */
+/* Pagina Ticket */
+/* Footer */
+/* Social Footer */
+/* Newsletter Footer */
+/* Moduli */
+/* loghetto nav solo su mobile */
+/* CSS personalizzato da 2020.torino.wordcamp.org */
+/*.js .main-navigation.toggled-on > div > ul {
+																	padding-top: 35px;
+																}*/
+/* Organizers page */
+/* Sponsor Page */
+body {
+	overflow-x: hidden;
+	font-family: $font-family_1;
+	font-size: 1.1rem;
+	font-weight: 500;
+	&:not(.title-tagline-hidden) {
+		.site-branding-text {
+			display: none;
+		}
+	}
+}
+body.colors-custom {
+	color: $color_1;
+}
+.colors-custom {
+	input {
+		color: $color_1;
+	}
+	select {
+		color: $color_1;
+		border-color: $border-color_1;
+	}
+	textarea {
+		color: $color_1;
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	h3 {
+		color: $color_1;
+	}
+	h4 {
+		color: $color_1;
+	}
+	h6 {
+		color: $color_1;
+	}
+	label {
+		color: $color_1;
+	}
+	.entry-title {
+		a {
+			color: $color_1;
+		}
+	}
+	.entry-footer {
+		.cat-links {
+			a {
+				color: $color_1;
+			}
+		}
+		.tags-links {
+			a {
+				color: $color_1;
+			}
+		}
+		.edit-link {
+			a.post-edit-link {
+				background-color: $background-color_1;
+			}
+		}
+	}
+	.format-quote {
+		blockquote {
+			color: $color_1;
+		}
+	}
+	.nav-title {
+		color: $color_1;
+	}
+	.comment-body {
+		color: $color_1;
+	}
+	.site-content {
+		.wp-playlist-light {
+			.wp-playlist-current-item {
+				.wp-playlist-item-album {
+					color: $color_1;
+				}
+				.wp-playlist-item-artist {
+					color: $color_2;
+				}
+			}
+		}
+		.site-content-light {
+			color: $color_3;
+		}
+	}
+	.entry-content {
+		a {
+			color: $color_1;
+		}
+		blockquote.alignleft {
+			color: $color_8;
+		}
+		blockquote.alignright {
+			color: $color_8;
+		}
+	}
+	.entry-summary {
+		a {
+			color: $color_1;
+		}
+	}
+	.comment-content {
+		a {
+			color: $color_1;
+		}
+	}
+	.widget {
+		a {
+			color: $color_1;
+		}
+		.tagcloud {
+			a {
+				&:hover {
+					border-color: $border-color_1;
+				}
+				&:focus {
+					border-color: $border-color_1;
+				}
+			}
+		}
+		a.widget-tikets {
+			color: $color_4;
+		}
+	}
+	.site-footer {
+		.widget-area {
+			a {
+				color: $color_1;
+			}
+		}
+	}
+	.posts-navigation {
+		a {
+			color: $color_1;
+		}
+	}
+	.widget_authors {
+		a {
+			strong {
+				color: $color_1;
+			}
+		}
+	}
+	h5 {
+		color: $color_2;
+	}
+	.entry-meta {
+		color: $color_2;
+		a {
+			color: $color_2;
+			color: $color_13 !important;
+		}
+	}
+	.nav-subtitle {
+		color: $color_2;
+	}
+	.comment-metadata {
+		color: $color_2;
+		a {
+			color: $color_2;
+		}
+		a.comment-edit-link {
+			color: $color_3;
+		}
+	}
+	.no-comments {
+		color: $color_2;
+	}
+	.comment-awaiting-moderation {
+		color: $color_2;
+	}
+	.page-numbers.current {
+		color: $color_2;
+	}
+	.page-links {
+		.page-number {
+			color: $color_2;
+		}
+		a {
+			.page-number {
+				color: $color_3;
+			}
+		}
+	}
+	.navigation-top {
+		.current-menu-item {
+			>a {
+				color: $color_2;
+				color: $color_6;
+				font-size: 1.1em;
+				color: $color_14 !important;
+			}
+		}
+		.current_page_item {
+			>a {
+				color: $color_2;
+				color: $color_6;
+				font-size: 1.1em;
+				color: $color_14 !important;
+			}
+		}
+		a {
+			color: $color_3;
+			color: $color_4;
+			font-weight: bold;
+			letter-spacing: .05rem;
+		}
+		ul {
+			ul {
+				a {
+					color: $color_4;
+					&:hover {
+						color: $color_6;
+					}
+				}
+			}
+		}
+	}
+	.main-navigation {
+		a {
+			&:hover {
+				color: $color_2;
+				color: $color_6;
+				font-size: 1.1em;
+			}
+		}
+		ul {
+			background: #ffffff00;
+		}
+		.ticket-css {
+			a {
+				&:hover {
+					color: $color_13;
+				}
+			}
+		}
+	}
+	input[type="text"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="email"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="url"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="password"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="search"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="number"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="tel"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="range"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="date"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="month"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="week"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="time"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="datetime"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	input[type="datetime-local"] {
+		border-color: $border-color_1;
+		color: $color_8;
+	}
+	input[type="color"] {
+		border-color: $border-color_1;
+		color: $color_8;
+		&:focus {
+			color: $color_3;
+		}
+	}
+	fieldset {
+		border-color: $border-color_1;
+	}
+	.widget.widget_tag_cloud {
+		a {
+			&:hover {
+				border-color: $border-color_1;
+			}
+			&:focus {
+				border-color: $border-color_1;
+			}
+		}
+	}
+	.wp_widget_tag_cloud {
+		a {
+			&:hover {
+				border-color: $border-color_1;
+			}
+			&:focus {
+				border-color: $border-color_1;
+			}
+		}
+	}
+	button {
+		background-color: $background-color_1;
+		border-radius: 31px;
+	}
+	input[type="button"] {
+		background-color: $background-color_1;
+	}
+	input[type="submit"] {
+		background-color: $background-color_1;
+	}
+	hr {
+		background: #333;
+	}
+	.colors-custom {
+		input[type="datetime-local"] {
+			&:focus {
+				color: $color_3;
+			}
+		}
+		.taxonomy-description {
+			color: $color_8;
+		}
+	}
+	button.secondary {
+		color: $color_3;
+	}
+	input[type="reset"] {
+		color: $color_3;
+	}
+	input[type="button"].secondary {
+		color: $color_3;
+	}
+	input[type="reset"].secondary {
+		color: $color_3;
+	}
+	input[type="submit"].secondary {
+		color: $color_3;
+	}
+	a {
+		color: $color_3;
+	}
+	.site-title {
+		color: $color_3;
+		a {
+			color: $color_3;
+		}
+	}
+	.dropdown-toggle {
+		color: $color_3;
+	}
+	.menu-toggle {
+		color: $color_3;
+		color: $color_4;
+	}
+	.page {
+		.panel-content {
+			.entry-title {
+				color: $color_3;
+				color: $color_7;
+			}
+		}
+	}
+	.page-title {
+		color: $color_3;
+	}
+	.comment-reply-link {
+		.icon {
+			color: $color_3;
+		}
+	}
+	h2.widget-title {
+		color: $color_3;
+	}
+	mark {
+		color: $color_3;
+	}
+	.post-navigation {
+		a {
+			&:focus {
+				.icon {
+					color: $color_3;
+				}
+			}
+			&:hover {
+				.icon {
+					color: $color_3;
+				}
+			}
+		}
+	}
+	.twentyseventeen-panel {
+		.recent-posts {
+			.entry-header {
+				.edit-link {
+					color: $color_3;
+				}
+			}
+		}
+	}
+	h2 {
+		color: $color_8;
+		font-weight: 900;
+	}
+	blockquote {
+		color: $color_8;
+	}
+	.site-description {
+		color: $color_8;
+	}
+	.wp-caption {
+		color: $color_8;
+	}
+	.gallery-caption {
+		color: $color_8;
+	}
+	.site-info {
+		a {
+			color: $color_4;
+			text-decoration: none;
+			&:hover {
+				color: $color_4;
+				-webkit-box-shadow: inset 0 0 0 #fff, 0 1px 0 #fff;
+				box-shadow: inset 0 0 0 #fff, 0 1px 0 #fff;
+				-webkit-box-shadow: inset 0 0 0 #fff, 0 0 0 #fff;
+				box-shadow: inset 0 0 0 #fff, 0 0 0 #fff;
+			}
+		}
+	}
+}
+.colors-custom.twentyseventeen-front-page {
+	.panel-content {
+		.recent-posts {
+			article {
+				color: $color_1;
+			}
+		}
+	}
+}
+.colors-custom.page {
+	&:not(.twentyseventeen-front-page) {
+		.entry-title {
+			color: $color_1;
+			color: $color_3;
+		}
+	}
+}
+.colors-custom.blog {
+	.entry-meta {
+		a.post-edit-link {
+			color: $color_2;
+		}
+	}
+}
+.colors-custom.archive {
+	.entry-meta {
+		a.post-edit-link {
+			color: $color_2;
+		}
+	}
+}
+.colors-custom.search {
+	.entry-meta {
+		a.post-edit-link {
+			color: $color_2;
+		}
+	}
+}
+h2 {
+	font-weight: bold;
+}
+.search-form {
+	.search-submit {
+		top: 19px;
+		border-radius: 30px;
+	}
+}
+.home {
+	.entry-content {
+		line-height: 1.7;
+		text-align: left;
+		.lang {
+			display: none;
+		}
+		p {
+			&:first-of-type {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.custom-header {
+		&:after {
+			display: block;
+			position: absolute;
+			content: "";
+			background-repeat: no-repeat;
+			background-image: url('https://torino.wordcamp.org/2020/files/2021/09/Progetto-senza-titolo.png');
+			background-position: center 60%;
+			background-size: 50%;
+			width: 100%;
+			height: 60%;
+			top: 0;
+		}
+	}
+	a.more-link.cta {
+		background-color: $background-color_9;
+		color: $color_4;
+		font-size: 16px;
+		font-weight: 700;
+		padding: 14px 20px;
+		transition: border-radius 300ms, color 500ms;
+		&:hover {
+			background-color: $background-color_2;
+			color: $color_4;
+			border-radius: 6px;
+		}
+	}
+	a.more-link {
+		background-color: $background-color_9;
+		color: $color_4;
+		&:hover {
+			background-color: $background-color_2;
+			color: $color_4;
+		}
+	}
+	#primary {
+		&:after {
+			display: block;
+			content: "";
+			width: calc(100% + 20px);
+			height: 80px;
+			position: absolute;
+			left: 50%;
+			transform: rotate(-2deg) translateX(-50%);
+			-webkit-transform: rotate(-2deg) translateX(-50%);
+			-moz-transform: rotate(-2deg) translateX(-50%);
+			background: #fff;
+			margin-top: -65px;
+		}
+	}
+	p.ita {
+		&:before {
+			display: none;
+		}
+	}
+	p.eng {
+		&:before {
+			display: none;
+		}
+	}
+	#post-386 {
+		.panel-image {
+			display: none;
+			visibility: hidden;
+		}
+	}
+}
+.navigation-top {
+	background-color: $background-color_2;
+	color: $color_4;
+	border: none;
+	&:before {
+		display: block;
+		content: "";
+		width: calc(100% + 20px);
+		height: 80px;
+		left: 50%;
+		position: absolute;
+		transform: rotate(-2deg) translateX(-50%);
+		-webkit-transform: rotate(-2deg) translateX(-50%);
+		-moz-transform: rotate(-2deg) translateX(-50%);
+		background-color: $background-color_3;
+		top: -68px;
+	}
+	&:after {
+		display: block;
+		content: "";
+		width: calc(100% + 20px);
+		height: 80px;
+		left: 50%;
+		position: absolute;
+		transform: rotate(-2deg) translateX(-50%);
+		-webkit-transform: rotate(-2deg) translateX(-50%);
+		-moz-transform: rotate(-2deg) translateX(-50%);
+		background-color: $background-color_3;
+		bottom: -10px;
+	}
+	a {
+		color: $color_4;
+		font-size: 1.1em;
+	}
+	nav {
+		float: right;
+		position: relative;
+		z-index: 10;
+		li.cta {
+			background-color: $background-color_4;
+			border-radius: 30px;
+			transition: border-radius 300ms, background-color 600ms;
+			&:hover {
+				background-color: $background-color_5;
+				border-radius: 6px;
+			}
+			a {
+				color: $color_5;
+				display: inline-block;
+				padding: 10px 20px;
+			}
+		}
+	}
+}
+.site-navigation-fixed.navigation-top {
+	.wrap {
+		position: relative;
+		top: 15px;
+		&:before {
+			background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+			background-size: contain;
+			display: block;
+			content: " ";
+			position: absolute;
+			top: 0;
+			z-index: 5;
+			min-height: 75px;
+			width: 200px;
+		}
+	}
+}
+.site-header {
+	.menu-scroll-down {
+		display: none;
+	}
+}
+.main-navigation {
+	ul {
+		ul {
+			background-color: $background-color_3;
+			border-color: $border-color_3;
+		}
+		li.menu-item-has-children {
+			&::before {
+				border-color: $border-color_2;
+			}
+			&::after {
+				border-bottom-color: $border-bottom-color_1;
+			}
+		}
+		li.page_item_has_children {
+			&::before {
+				border-color: $border-color_2;
+			}
+			&::after {
+				border-bottom-color: $border-bottom-color_1;
+			}
+		}
+	}
+	li {
+		li {
+			&:hover {
+				background-color: $background-color_3;
+				background-color: $background-color_3;
+			}
+		}
+	}
+}
+.has-header-video.twentyseventeen-front-page {
+	.custom-header {
+		position: relative;
+	}
+	.site-branding {
+		z-index: 4;
+		font-family: $font-family_1;
+	}
+}
+.wp-custom-header {
+	.wp-custom-header-video-button  {
+		z-index: 5;
+	}
+}
+.has-header-image.twentyseventeen-front-page {
+	.site-branding {
+		z-index: 4;
+		font-family: $font-family_1;
+	}
+}
+body.has-header-image {
+	.site-title {
+		a {
+			color: $color_4;
+			display: block;
+			font-family: $font-family_1;
+			font-size: 300%;
+			text-shadow: 3px 3px 1px #000;
+			text-align: center;
+			display: none;
+		}
+	}
+	.site-description {
+		color: $color_4;
+		opacity: 1;
+		font-size: 300%;
+		font-family: $font-family_1;
+		text-shadow: 1px 2px 1px #000;
+		text-align: center;
+	}
+}
+body.has-header-video {
+	.site-description {
+		color: $color_4;
+		opacity: 1;
+		font-size: 300%;
+		font-family: $font-family_1;
+		text-shadow: 1px 2px 1px #000;
+		text-align: center;
+	}
+}
+.page {
+	.panel-content {
+		.entry-title {
+			font-family: $font-family_2;
+			font-size: 26px;
+			text-align: center;
+			font-weight: 700;
+			color: $color_7;
+			font-size: 30px;
+			font-size: 2rem;
+			font-weight: 600;
+		}
+		.entry-content {
+			text-align: left;
+			padding-bottom: 40px;
+		}
+	}
+	&:not(.home) {
+		.custom-header-media {
+			&::before {
+				background-color: $background-color_10;
+			}
+		}
+		.navigation-top {
+			.wrap {
+				&:before {
+					display: block;
+				}
+			}
+		}
+		#content {
+			padding-bottom: 40px;
+		}
+	}
+	.navigation-top {
+		.wrap {
+			&:before {
+				background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+				background-size: contain;
+				content: "";
+				position: absolute;
+				top: 0;
+				z-index: 5;
+				min-height: 75px;
+				width: 200px;
+				font-size: 180%;
+				font-weight: bold;
+				color: $color_4;
+				text-shadow: 2px 2px 2px #da2902;
+			}
+		}
+	}
+}
+.page-title {
+	font-family: $font-family_2;
+	font-size: 26px;
+	text-align: center;
+	font-weight: 700;
+}
+body.page {
+	&:not(.twentyseventeen-front-page) {
+		.entry-title {
+			font-family: $font-family_2;
+			font-size: 26px;
+			text-align: center;
+			font-weight: 700;
+		}
+	}
+}
+.more-link {
+	background-color: $background-color_6;
+	color: $color_4;
+	text-transform: uppercase;
+	border-radius: 30px;
+	padding: 12px 16px;
+	display: inline-block;
+	font-family: $font-family_2;
+	font-weight: 600;
+	font-size: 14px;
+}
+a.more-link {
+	&:hover {
+		background-color: $background-color_7;
+		box-shadow: none !important;
+		color: $color_4;
+		text-decoration: none;
+	}
+}
+.more-link.disabled {
+	background-color: $background-color_8;
+}
+a.more-link.disabled {
+	&:hover {
+		background-color: $background-color_8;
+	}
+}
+.entry-content {
+	.more-link {
+		&:before {
+			display: none;
+		}
+	}
+	ul {
+		margin-left: 48px;
+	}
+	h3 {
+		color: $color_8;
+		font-size: 20px;
+		line-height: 1;
+	}
+}
+.background-fixed {
+	.panel-image {
+		position: relative;
+		&:before {
+			display: block;
+			content: "";
+			width: calc(100% + 20px);
+			height: 80px;
+			position: absolute;
+			left: 50%;
+			transform: rotate(-2deg) translateX(-50%);
+			-webkit-transform: rotate(-2deg) translateX(-50%);
+			-moz-transform: rotate(-2deg) translateX(-50%);
+			background: #fff;
+			top: -70px;
+			background: #fff;
+		}
+		&:after {
+			display: block;
+			content: "";
+			width: calc(100% + 20px);
+			height: 80px;
+			position: absolute;
+			left: 50%;
+			transform: rotate(-2deg) translateX(-50%);
+			-webkit-transform: rotate(-2deg) translateX(-50%);
+			-moz-transform: rotate(-2deg) translateX(-50%);
+			background: #fff;
+			bottom: -5px;
+			background: #fff;
+		}
+	}
+}
+.site-footer {
+	background-color: $background-color_2;
+	color: $color_4;
+	position: relative;
+	&:before {
+		content: "";
+		width: calc(100% + 20px);
+		height: 80px;
+		display: block;
+		position: absolute;
+		top: -70px;
+		left: 50%;
+		background: #ff8200;
+		transform: rotate(-2deg) translateX(-50%);
+		-webkit-transform: rotate(-2deg) translateX(-50%);
+		-moz-transform: rotate(-2deg) translateX(-50%);
+	}
+	.wrap {
+		position: relative;
+		z-index: 2;
+	}
+}
+.site-content-contain {
+	overflow: hidden;
+}
+.twentyseventeen-front-page.page-one-column {
+	.entry-header {
+		margin-bottom: 30px;
+	}
+}
+.panel-content {
+	background: #fff;
+	color: $color_1;
+	a {
+		color: $color_1;
+		-webkit-box-shadow: inset 0 -1px 0 #333;
+		box-shadow: inset 0 -1px 0 #da2901;
+		&:hover {
+			color: $color_4;
+			-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(255,255,255,1);
+			box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(255,255,255,1);
+		}
+	}
+	a.more-link {
+		&:hover {
+			-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(255,255,255,1);
+			box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(255,255,255,1);
+		}
+	}
+}
+.single-featured-image-header {
+	display: none;
+	visibility: hidden;
+	height: 0;
+}
+.single {
+	.custom-header-media {
+		&::before {
+			background-color: $background-color_10;
+		}
+	}
+	.navigation-top {
+		.wrap {
+			&:before {
+				background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+				background-size: contain;
+				content: "";
+				position: absolute;
+				top: 0;
+				z-index: 5;
+				min-height: 75px;
+				width: 200px;
+				font-size: 180%;
+				font-weight: bold;
+				color: $color_4;
+				text-shadow: 2px 2px 2px #da2902;
+				display: block;
+			}
+		}
+	}
+}
+.custom-header-media {
+	&:before {
+		background: none !important;
+	}
+}
+.has-header-image {
+	.custom-header-media {
+		img {
+			object-position: 0 76%;
+		}
+	}
+	&:not(.twentyseventeen-front-page) {
+		&:not(.home) {
+			.custom-header-media {
+				img {
+					object-position: 0 76%;
+					object-position: 0 40%;
+				}
+			}
+		}
+	}
+}
+.has-header-video {
+	.custom-header-media {
+		video {
+			object-position: 0 76%;
+		}
+		iframe {
+			object-position: 0 76%;
+		}
+	}
+}
+.custom-header {
+	.site-branding {
+		padding: 8em 0;
+	}
+}
+.page-slug-sponsors {
+	text-align: center;
+	.entry-content {
+		h2 {
+			font-weight: 600;
+			text-transform: uppercase;
+			font-size: 2em;
+		}
+	}
+}
+.wcorg-sponsors {
+	>div {
+		&:not(:first-of-type) {
+			margin-top: 80px;
+			padding-top: 40px;
+		}
+	}
+}
+.wcorg-sponsor {
+	h3 {
+		display: none;
+		visibility: hidden;
+	}
+}
+p.ita {
+	position: relative;
+	&:before {
+		display: block;
+		content: "";
+		position: absolute;
+		left: -40px;
+		width: 24px;
+		height: 24px;
+		background-position: center center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+p.eng {
+	position: relative;
+	margin-top: 50px;
+	&:before {
+		display: block;
+		content: "";
+		position: absolute;
+		left: -40px;
+		width: 24px;
+		height: 24px;
+		background-position: center center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+}
+.sharedaddy {
+	padding-bottom: 48px;
+}
+.twentyseventeen-front-page {
+	.site-content {
+		padding-bottom: 40px;
+	}
+}
+.menu-toggle {
+	color: $color_4;
+}
+.page-id-13 {
+	td {
+		strong {
+			display: inline-block;
+			margin-top: 6px;
+			margin-bottom: 6px;
+		}
+		.tix-ticket-excerpt {
+			font-size: 14px;
+		}
+	}
+	td.tix-column-remaining {
+		text-align: center;
+	}
+	td.tix-column-quantity {
+		text-align: right;
+	}
+	input[type="submit"] {
+		border-radius: 30px;
+		font-family: $font-family_3;
+		text-transform: uppercase;
+		&:hover {
+			background-color: $background-color_5;
+			color: $color_5;
+		}
+	}
+}
+footer {
+	.widget {
+		.widget-title {
+			color: $color_9;
+			font-family: $font-family_3;
+			font-size: 16px;
+		}
+	}
+	.widget.widget_wpcom_social_media_icons_widget {
+		li {
+			a {
+				border-bottom: none;
+				box-shadow: none;
+				font-size: 32px;
+				background: #fff;
+				border-radius: 50%;
+				color: $color_5;
+				padding: 8px;
+				&:hover {
+					color: $color_9;
+					box-shadow: 0 2px 0 #f9b90e;
+				}
+			}
+		}
+	}
+	.jetpack_subscription_widget {
+		#subscribe-submit {
+			input {
+				border-radius: 30px;
+				font-family: $font-family_3;
+				text-transform: uppercase;
+				&:hover {
+					background-color: $background-color_5;
+					color: $color_5;
+				}
+			}
+		}
+	}
+}
+.widget.widget_wpcom_social_media_icons_widget {
+	li {
+		border-bottom: none;
+		border-top: none;
+		box-shadow: none;
+		margin-right: 15px;
+	}
+}
+input[type="text"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="email"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="url"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="password"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="search"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="number"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="tel"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="range"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="date"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="month"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="week"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="time"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="submit"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+	text-transform: uppercase;
+	&:hover {
+		background-color: $background-color_5;
+		color: $color_5;
+	}
+}
+input[type="datetime"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="datetime-local"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+input[type="color"] {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+textarea {
+	border-radius: 30px;
+	font-family: $font-family_3;
+}
+label {
+	padding-bottom: 10px;
+}
+#tix-attendees {
+	.tix-columns-3 {
+		li {
+			width: calc(100% * 1 / 3 - 15px);
+		}
+	}
+	li {
+		margin: 0 7.5px 15px;
+		background-color: $background-color_11;
+		padding: 10px;
+		a.tix-field {
+			box-shadow: none;
+			-webkit-box-shadow: none;
+			-webkit-transition: none;
+			transition: none;
+			&:hover {
+				text-decoration: underline;
+				box-shadow: none;
+				-webkit-box-shadow: none;
+			}
+		}
+	}
+}
+.page.page-slug-attendees {
+	.entry-header {
+		margin: 0;
+	}
+}
+.page.page-slug-schedule {
+	&:not(.twentyseventeen-front-page) {
+		#primary {
+			max-width: 100%;
+		}
+	}
+}
+table.wcpt-schedule {
+	border: 1px solid #8e001c;
+	text-align: center;
+	th {
+		border: 1px solid #8e001c;
+		text-align: center;
+	}
+	td {
+		border: 1px solid #8e001c;
+		text-align: center;
+	}
+	tr.even {
+		background: #ffe8be;
+	}
+	tr.alt {
+		background: #ffe8be;
+	}
+	tr {
+		&:nth-of-type(2n) {
+			background: #ffe8be;
+		}
+	}
+}
+.wcpt-schedule {
+	td {
+		padding: .6em;
+		&:first-child {
+			padding: .6em;
+		}
+		&:last-child {
+			padding: .6em;
+		}
+		a {
+			display: block;
+			box-shadow: none;
+			-webkit-box-shadow: none;
+			-webkit-transition: none;
+			transition: none;
+			font-weight: 600;
+			&:hover {
+				text-decoration: underline;
+				box-shadow: none;
+				-webkit-box-shadow: none;
+			}
+		}
+	}
+	border: none;
+	.global-session {
+		&:not(.la-community-italiana-di-wordpress-nel-2017-tra-team-globale-e-esperienze-locali-ita) {
+			background-color: $background-color_12;
+			color: $color_4;
+			td {
+				border-color: $border-color_3;
+			}
+		}
+	}
+	th {
+		text-transform: uppercase;
+		color: $color_10;
+		font-weight: 700;
+	}
+}
+.wcpt-session-speakers {
+	font-size: 12px;
+}
+.wcb-session-favourite-icon {
+	display: none;
+}
+.displeibloc {
+	display: block !important;
+}
+.site-branding {
+	a {
+		&:hover {
+			opacity: 1;
+		}
+		&:focus {
+			opacity: 1;
+		}
+	}
+}
+.site-info {
+	a {
+		box-shadow: none;
+	}
+}
+h2.padding-top-title {
+	padding-top: 160px;
+}
+#eu-cookie-law {
+	color: $color_1;
+	input {
+		color: $color_1;
+	}
+}
+.icon.icon-angle-down {
+	color: $color_4;
+}
+.blog {
+	.site-main {
+		>article {
+			margin-bottom: 5em;
+			border-bottom: 1px dotted #ccc;
+			padding-bottom: 3em;
+		}
+	}
+}
+.archive {
+	.site-main {
+		>article {
+			margin-bottom: 5em;
+			border-bottom: 1px dotted #ccc;
+			padding-bottom: 3em;
+		}
+	}
+}
+.search {
+	.site-main {
+		>article {
+			margin-bottom: 5em;
+			border-bottom: 1px dotted #ccc;
+			padding-bottom: 3em;
+		}
+	}
+}
+.wp-block-image {
+	img {
+		width: 100%;
+	}
+}
+h2.widget-title {
+	font-size: 1em;
+}
+li.ticket-css {
+	background-color: $background-color_14;
+	border-radius: 30px;
+	padding: 0 5px;
+	&:hover {
+		background-color: $background-color_4;
+		border-radius: 30px;
+		padding: 0 5px;
+	}
+}
+a.widget-tikets {
+	background-color: $background-color_3;
+	padding: 20px;
+	text-decoration: none;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+input#tix-coupon-input {
+	margin-bottom: 10px;
+}
+#tix {
+	.tix-submit {
+		.tix-checkout-button {
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			border: 0 none;
+			border-radius: 30px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			clear: both;
+			display: block;
+			float: right;
+			margin-top: 20px;
+		}
+	}
+}
+a.imprint {
+	&:after {
+		content: ' - photo credits Pietro Cardone';
+		font-size: 90%;
+	}
+}
+.page-id-12 {
+	.entry-content {
+		h3 {
+			color: $color_13;
+			font-weight: bold;
+		}
+		ul {
+			margin-left: 0;
+		}
+	}
+	img.avatar.avatar-150.photo {
+		border-radius: 50%;
+		border: 1px solid #e2e2e2;
+		padding: 6px;
+		width: 200px;
+	}
+}
+.wordcamp-organizer.wordcamp-organizers__post {
+	margin-bottom: 4em;
+}
+.sponsor-level {
+	color: $color_13 !important;
+	text-align: left;
+	border-top: 1px solid #d6d6d6;
+	padding-top: .5em;
+	margin-top: 2em;
+}
+@media screen and (min-width: 48em) {
+	.main-navigation {
+		a {
+			padding: 1em .5em;
+		}
+	}
+	.colors-custom {
+		.main-navigation {
+			ul {
+				ul {
+					border-color: $border-color_3;
+					background: #da2901;
+				}
+				li.menu-item-has-children {
+					&:after {
+						border-bottom-color: $border-bottom-color_1;
+					}
+				}
+				li.page_item_has_children {
+					&:after {
+						border-bottom-color: $border-bottom-color_1;
+					}
+				}
+			}
+			li {
+				li {
+					&:hover {
+						background: #da2901;
+					}
+				}
+				li.focus {
+					background: #da2901;
+				}
+			}
+		}
+	}
+	.has-sidebar {
+		#secondary {
+			width: 29%;
+		}
+		&:not(.error404) {
+			#primary {
+				width: 66%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 766px) {
+	.page {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+					background-size: auto auto;
+					background-size: contain;
+					content: " ";
+					position: absolute;
+					top: 0;
+					z-index: 5;
+					min-height: 75px;
+					display: block;
+					left: 50px;
+					width: calc(100% - 100px);
+				}
+			}
+		}
+	}
+	.home {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+					background-size: auto auto;
+					background-size: contain;
+					content: " ";
+					position: absolute;
+					top: 0;
+					z-index: 5;
+					min-height: 75px;
+					display: block;
+					left: 50px;
+					width: calc(100% - 100px);
+				}
+			}
+		}
+	}
+	.single {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+					background-size: auto auto;
+					background-size: contain;
+					content: " ";
+					position: absolute;
+					top: 0;
+					z-index: 5;
+					min-height: 75px;
+					display: block;
+					left: 50px;
+					width: calc(100% - 100px);
+				}
+			}
+		}
+	}
+	.archive {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png') no-repeat left center;
+					background-size: auto auto;
+					background-size: contain;
+					content: " ";
+					position: absolute;
+					top: 0;
+					z-index: 5;
+					min-height: 75px;
+					display: block;
+					left: 50px;
+					width: calc(100% - 100px);
+				}
+			}
+		}
+	}
+	.site-branding {
+		display: none !important;
+	}
+}
+@media screen and (min-width:767px) and (max-width: 1025px) {
+	.page {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: none;
+				}
+			}
+		}
+		&:not(.home) {
+			.custom-header {
+				&:after {
+					display: block;
+					position: absolute;
+					content: "";
+					background-repeat: no-repeat;
+					background-image: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png');
+					background-position: center 35%;
+					background-size: 40%;
+					width: 100%;
+					height: 100%;
+					top: 0;
+				}
+			}
+		}
+	}
+	.home {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: none;
+				}
+			}
+		}
+	}
+	.single {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: none;
+				}
+			}
+		}
+		.custom-header {
+			&:after {
+				display: block;
+				position: absolute;
+				content: "";
+				background-repeat: no-repeat;
+				background-image: url('https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png');
+				background-position: center 35%;
+				background-size: 40%;
+				width: 100%;
+				height: 100%;
+				top: 0;
+			}
+		}
+	}
+	.archive {
+		.navigation-top {
+			.wrap {
+				&::before {
+					background: none;
+				}
+			}
+		}
+	}
+}
+@media screen and (max-width: 1024px) {
+	.twentyseventeen-front-page {
+		.custom-header {
+			&::after {
+				left: 0;
+				background-size: 48%;
+				background-position: center center;
+			}
+		}
+	}
+	.has-header-image.twentyseventeen-front-page {
+		.custom-header {
+			display: block;
+			height: auto;
+		}
+		.site-branding {
+			display: none;
+		}
+	}
+	.has-header-video.twentyseventeen-front-page {
+		.custom-header {
+			display: block;
+			height: auto;
+		}
+		.site-branding {
+			display: none;
+		}
+	}
+	.has-header-image.home.blog {
+		.custom-header {
+			display: block;
+			height: auto;
+		}
+	}
+	.has-header-video.home.blog {
+		.custom-header {
+			display: block;
+			height: auto;
+		}
+	}
+	.has-header-image {
+		.custom-header-media {
+			img {
+				position: static;
+				vertical-align: middle;
+				object-position: bottom;
+			}
+		}
+		&:not(.twentyseventeen-front-page) {
+			&:not(.home) {
+				.custom-header-media {
+					img {
+						object-position: bottom;
+					}
+				}
+			}
+		}
+	}
+	.has-header-video {
+		.custom-header-media {
+			video {
+				position: static;
+				vertical-align: middle;
+				object-position: bottom;
+			}
+			iframe {
+				position: static;
+				vertical-align: middle;
+				object-position: bottom;
+			}
+		}
+	}
+	.custom-header-media {
+		position: static;
+		vertical-align: middle;
+	}
+	.twentyseventeen-front-page.has-header-image {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.twentyseventeen-front-page.has-header-video {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.home.blog.has-header-image {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.home.blog.has-header-video {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.admin-bar.twentyseventeen-front-page.has-header-image {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.admin-bar.twentyseventeen-front-page.has-header-video {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.admin-bar.home.blog.has-header-image {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.admin-bar.home.blog.has-header-video {
+		.custom-header-media {
+			height: auto;
+		}
+	}
+	.navigation-top {
+		&::before {
+			display: none;
+		}
+		&::after {
+			display: none;
+		}
+		nav {
+			float: none;
+		}
+		a {
+			color: $color_11;
+		}
+	}
+	#masthead {
+		.wrap {
+			min-height: 75px;
+		}
+	}
+	.js {
+		.menu-toggle {
+			height: 75px;
+			float: right;
+			margin: 0;
+			outline: none;
+			display: block;
+		}
+		.main-navigation {
+			ul {
+				display: none;
+				ul.sub-menu {
+					background-color: $background-color_3;
+				}
+			}
+			>div {
+				>ul {
+					display: none;
+				}
+			}
+		}
+	}
+	.menu-primary-container {
+		clear: both;
+	}
+	.main-navigation {
+		ul {
+			ul {
+				background-color: $background-color_13;
+				a {
+					color: $color_11;
+				}
+			}
+		}
+		li {
+			li {
+				&:hover {
+					background-color: $background-color_13;
+				}
+			}
+		}
+		ul.sub-menu {
+			a {
+				&:hover {
+					color: $color_12;
+				}
+				&:focus {
+					color: $color_12;
+				}
+			}
+		}
+	}
+	.custom-header {
+		.site-branding {
+			padding: 7em 0;
+		}
+	}
+}
+@media screen and (max-width: 1300px) {
+	.has-header-image {
+		.custom-header-media {
+			img {
+				object-position: 0 81%;
+			}
+		}
+		&:not(.twentyseventeen-front-page) {
+			&:not(.home) {
+				.custom-header-media {
+					img {
+						object-position: 0 81%;
+					}
+				}
+			}
+		}
+	}
+	.has-header-video {
+		.custom-header-media {
+			video {
+				object-position: 0 81%;
+			}
+			iframe {
+				object-position: 0 81%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 1150px) {
+	.has-header-image {
+		.custom-header-media {
+			img {
+				object-position: 0 86%;
+			}
+		}
+		&:not(.twentyseventeen-front-page) {
+			&:not(.home) {
+				.custom-header-media {
+					img {
+						object-position: 0 86%;
+					}
+				}
+			}
+		}
+	}
+	.has-header-video {
+		.custom-header-media {
+			video {
+				object-position: 0 86%;
+			}
+			iframe {
+				object-position: 0 86%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 850px) {
+	.has-header-image {
+		.custom-header-media {
+			img {
+				object-position: 0 110%;
+			}
+		}
+		&:not(.twentyseventeen-front-page) {
+			&:not(.home) {
+				.custom-header-media {
+					img {
+						object-position: 0 110%;
+					}
+				}
+			}
+		}
+	}
+	.has-header-video {
+		.custom-header-media {
+			video {
+				object-position: 0 110%;
+			}
+			iframe {
+				object-position: 0 110%;
+			}
+		}
+	}
+}
+@media screen and (max-width: 47.999em) {
+	.has-header-image {
+		.custom-header-media {
+			img {
+				object-position: 0 66%;
+			}
+		}
+		&:not(.twentyseventeen-front-page) {
+			&:not(.home) {
+				.custom-header-media {
+					img {
+						object-position: 0 66%;
+					}
+				}
+			}
+		}
+	}
+	.has-header-video {
+		.custom-header-media {
+			video {
+				object-position: 0 66%;
+			}
+			iframe {
+				object-position: 0 66%;
+			}
+		}
+	}
+	.custom-header {
+		.site-branding {
+			padding: 1em 0;
+		}
+	}
+}
+@media screen and (max-width: 640px) {
+	p.ita {
+		&::before {
+			position: static;
+			left: auto;
+		}
+	}
+	p.eng {
+		&::before {
+			position: static;
+			left: auto;
+		}
+	}
+	.custom-header {
+		display: none;
+	}
+	.page {
+		.navigation-top {
+			.wrap {
+				&::before {
+					display: block;
+					left: 50%;
+					transform: translateX(-50%);
+					-webkit-transform: translateX(-50%);
+					-moz-transform: translateX(-50%);
+				}
+			}
+		}
+	}
+	.single {
+		.navigation-top {
+			.wrap {
+				&::before {
+					display: block;
+					left: 50%;
+					transform: translateX(-50%);
+					-webkit-transform: translateX(-50%);
+					-moz-transform: translateX(-50%);
+				}
+			}
+		}
+	}
+	.archive {
+		.navigation-top {
+			.wrap {
+				&::before {
+					display: block;
+					left: 50%;
+					transform: translateX(-50%);
+					-webkit-transform: translateX(-50%);
+					-moz-transform: translateX(-50%);
+				}
+			}
+		}
+	}
+	.navigation-top {
+		nav {
+			padding-top: 75px;
+		}
+	}
+	.js {
+		.menu-toggle {
+			height: auto;
+			float: none;
+			padding: 17px 14px;
+			margin: 0 auto;
+		}
+	}
+	#tix-attendees {
+		.tix-columns-3 {
+			li {
+				width: calc(50% - 15px);
+			}
+		}
+	}
+}
+@media screen and (max-width: 1025px) {
+	.navigation-top {
+		.wrap {
+			background: #da2901;
+			margin-top: 0;
+			max-width: 100%;
+		}
+	}
+}
+@media screen and (max-width: 1023px) {
+	.navigation-top {
+		.wrap {
+			background: #da2901;
+			margin-top: -3px;
+		}
+	}
+	.page {
+		.navigation-top {
+			.wrap {
+				&:before {
+					font-size: 170%;
+				}
+			}
+		}
+	}
+	.single {
+		.navigation-top {
+			.wrap {
+				&:before {
+					font-size: 170%;
+				}
+			}
+		}
+	}
+	.js {
+		.menu-toggle {
+			color: $color_4;
+		}
+		.main-navigation {
+			ul {
+				ul.sub-menu {
+					background-color: $background-color_3;
+				}
+			}
+		}
+	}
+	.site-navigation-fixed.navigation-top {
+		.wrap {
+			top: 0;
+		}
+	}
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+	.colors-custom {
+		.menu-toggle {
+			margin-top: -10px;
+			&:hover {
+				margin-top: -10px;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1200px) {
+	.wrap {
+		max-width: 1000px;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+@media screen and (max-width: 600px) {
+	.site-title {
+		font-size: 18px;
+		font-size: .9rem;
+	}
+	body.has-header-image {
+		.site-description {
+			color: $color_4;
+			opacity: 1;
+			font-size: 170%;
+			font-family: $font-family_1;
+			text-shadow: 1px 2px 1px #000;
+			text-align: center;
+		}
+	}
+	body.has-header-video {
+		.site-description {
+			color: $color_4;
+			opacity: 1;
+			font-size: 170%;
+			font-family: $font-family_1;
+			text-shadow: 1px 2px 1px #000;
+			text-align: center;
+		}
+	}
+	.colors-custom.has-header-image {
+		.site-title {
+			a {
+				color: $color_13;
+			}
+		}
+		.site-description {
+			color: $color_13;
+		}
+	}
+}
+@media screen and (max-width: 769px) {
+	a.widget-tikets {
+		font-size: .7em;
+	}
+}
+@media screen and (max-width: 767px) {
+	li.ticket-css {
+		background-color: $background-color_13;
+		border-radius: 0;
+		padding: 0;
+	}
+}

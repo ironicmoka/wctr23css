@@ -1,0 +1,1778 @@
+@charset "UTF-8";
+/* Custom CSS from torino.wordcamp.org */
+/* Regole Generali */
+/* Logo WCTRN */
+/* Titolo Sito */
+/* fix for footer spagination */
+/* Homepage */
+/* parallasse home */
+/* Pagina Singola */
+/* Pagina Sponsor */
+/*
+p.ita:before {
+	background-image: url('https://2017.rome.wordcamp.org/files/2017/09/italy.png');
+}
+
+p.eng:before {
+	background-image: url('https://2017.rome.wordcamp.org/files/2017/09/united-kingdom.png');
+}*/
+/* Homepage */
+/* Pagina Ticket */
+/* Footer */
+/* Social Footer */
+/* Newsletter Footer */
+/* Moduli */
+/* loghetto nav solo su mobile */
+/* CSS personalizzato da 2020.torino.wordcamp.org */
+/*.js .main-navigation.toggled-on > div > ul {
+																	padding-top: 35px;
+																}*/
+/* Organizers page */
+/* Sponsor Page */
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+body:not(.title-tagline-hidden) .site-branding-text {
+  display: none;
+}
+
+body.colors-custom {
+  color: #333;
+}
+
+.colors-custom input {
+  color: #333;
+}
+.colors-custom select {
+  color: #333;
+  border-color: #666;
+}
+.colors-custom textarea {
+  color: #333;
+  border-color: #666;
+  color: #666;
+}
+.colors-custom textarea:focus {
+  color: #333333;
+}
+.colors-custom h3 {
+  color: #333;
+}
+.colors-custom h4 {
+  color: #333;
+}
+.colors-custom h6 {
+  color: #333;
+}
+.colors-custom label {
+  color: #333;
+}
+.colors-custom .entry-title a {
+  color: #333;
+}
+.colors-custom .entry-footer .cat-links a {
+  color: #333;
+}
+.colors-custom .entry-footer .tags-links a {
+  color: #333;
+}
+.colors-custom .entry-footer .edit-link a.post-edit-link {
+  background-color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .format-quote blockquote {
+  color: #333;
+}
+.colors-custom .nav-title {
+  color: #333;
+}
+.colors-custom .comment-body {
+  color: #333;
+}
+.colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album {
+  color: #333;
+}
+.colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .site-content .site-content-light {
+  color: #333333;
+}
+.colors-custom .entry-content a {
+  color: #333;
+}
+.colors-custom .entry-content blockquote.alignleft {
+  color: #666;
+}
+.colors-custom .entry-content blockquote.alignright {
+  color: #666;
+}
+.colors-custom .entry-summary a {
+  color: #333;
+}
+.colors-custom .comment-content a {
+  color: #333;
+}
+.colors-custom .widget a {
+  color: #333;
+}
+.colors-custom .widget .tagcloud a:hover {
+  border-color: #666;
+}
+.colors-custom .widget .tagcloud a:focus {
+  border-color: #666;
+}
+.colors-custom .widget a.widget-tikets {
+  color: #fff;
+}
+.colors-custom .site-footer .widget-area a {
+  color: #333;
+}
+.colors-custom .posts-navigation a {
+  color: #333;
+}
+.colors-custom .widget_authors a strong {
+  color: #333;
+}
+.colors-custom h5 {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .entry-meta {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .entry-meta a {
+  color: hsl(11deg, 99%, 43%);
+  color: #da2901 !important;
+}
+.colors-custom .nav-subtitle {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .comment-metadata {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .comment-metadata a {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .comment-metadata a.comment-edit-link {
+  color: #333333;
+}
+.colors-custom .no-comments {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .comment-awaiting-moderation {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .page-numbers.current {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .page-links .page-number {
+  color: hsl(11deg, 99%, 43%);
+}
+.colors-custom .page-links a .page-number {
+  color: #333333;
+}
+.colors-custom .navigation-top .current-menu-item > a {
+  color: hsl(11deg, 99%, 43%);
+  color: #ffe06c;
+  font-size: 1.1em;
+  color: #f87e15 !important;
+}
+.colors-custom .navigation-top .current_page_item > a {
+  color: hsl(11deg, 99%, 43%);
+  color: #ffe06c;
+  font-size: 1.1em;
+  color: #f87e15 !important;
+}
+.colors-custom .navigation-top a {
+  color: #333333;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+.colors-custom .navigation-top ul ul a {
+  color: #fff;
+}
+.colors-custom .navigation-top ul ul a:hover {
+  color: #ffe06c;
+}
+.colors-custom .main-navigation a:hover {
+  color: hsl(11deg, 99%, 43%);
+  color: #ffe06c;
+  font-size: 1.1em;
+}
+.colors-custom .main-navigation ul {
+  background: rgba(255, 255, 255, 0);
+}
+.colors-custom .main-navigation .ticket-css a:hover {
+  color: #da2901;
+}
+.colors-custom input[type=text] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=text]:focus {
+  color: #333333;
+}
+.colors-custom input[type=email] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=email]:focus {
+  color: #333333;
+}
+.colors-custom input[type=url] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=url]:focus {
+  color: #333333;
+}
+.colors-custom input[type=password] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=password]:focus {
+  color: #333333;
+}
+.colors-custom input[type=search] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=search]:focus {
+  color: #333333;
+}
+.colors-custom input[type=number] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=number]:focus {
+  color: #333333;
+}
+.colors-custom input[type=tel] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=tel]:focus {
+  color: #333333;
+}
+.colors-custom input[type=range] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=range]:focus {
+  color: #333333;
+}
+.colors-custom input[type=date] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=date]:focus {
+  color: #333333;
+}
+.colors-custom input[type=month] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=month]:focus {
+  color: #333333;
+}
+.colors-custom input[type=week] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=week]:focus {
+  color: #333333;
+}
+.colors-custom input[type=time] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=time]:focus {
+  color: #333333;
+}
+.colors-custom input[type=datetime] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=datetime]:focus {
+  color: #333333;
+}
+.colors-custom input[type=datetime-local] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=color] {
+  border-color: #666;
+  color: #666;
+}
+.colors-custom input[type=color]:focus {
+  color: #333333;
+}
+.colors-custom fieldset {
+  border-color: #666;
+}
+.colors-custom .widget.widget_tag_cloud a:hover {
+  border-color: #666;
+}
+.colors-custom .widget.widget_tag_cloud a:focus {
+  border-color: #666;
+}
+.colors-custom .wp_widget_tag_cloud a:hover {
+  border-color: #666;
+}
+.colors-custom .wp_widget_tag_cloud a:focus {
+  border-color: #666;
+}
+.colors-custom button {
+  background-color: hsl(11deg, 99%, 43%);
+  border-radius: 31px;
+}
+.colors-custom input[type=button] {
+  background-color: hsl(11deg, 99%, 43%);
+}
+.colors-custom input[type=submit] {
+  background-color: hsl(11deg, 99%, 43%);
+}
+.colors-custom hr {
+  background: #333;
+}
+.colors-custom .colors-custom input[type=datetime-local]:focus {
+  color: #333333;
+}
+.colors-custom .colors-custom .taxonomy-description {
+  color: #666;
+}
+.colors-custom button.secondary {
+  color: #333333;
+}
+.colors-custom input[type=reset] {
+  color: #333333;
+}
+.colors-custom input[type=button].secondary {
+  color: #333333;
+}
+.colors-custom input[type=reset].secondary {
+  color: #333333;
+}
+.colors-custom input[type=submit].secondary {
+  color: #333333;
+}
+.colors-custom a {
+  color: #333333;
+}
+.colors-custom .site-title {
+  color: #333333;
+}
+.colors-custom .site-title a {
+  color: #333333;
+}
+.colors-custom .dropdown-toggle {
+  color: #333333;
+}
+.colors-custom .menu-toggle {
+  color: #333333;
+  color: #fff;
+}
+.colors-custom .page .panel-content .entry-title {
+  color: #333333;
+  color: #da2902;
+}
+.colors-custom .page-title {
+  color: #333333;
+}
+.colors-custom .comment-reply-link .icon {
+  color: #333333;
+}
+.colors-custom h2.widget-title {
+  color: #333333;
+}
+.colors-custom mark {
+  color: #333333;
+}
+.colors-custom .post-navigation a:focus .icon {
+  color: #333333;
+}
+.colors-custom .post-navigation a:hover .icon {
+  color: #333333;
+}
+.colors-custom .twentyseventeen-panel .recent-posts .entry-header .edit-link {
+  color: #333333;
+}
+.colors-custom h2 {
+  color: #666;
+  font-weight: 900;
+}
+.colors-custom blockquote {
+  color: #666;
+}
+.colors-custom .site-description {
+  color: #666;
+}
+.colors-custom .wp-caption {
+  color: #666;
+}
+.colors-custom .gallery-caption {
+  color: #666;
+}
+.colors-custom .site-info a {
+  color: #fff;
+  text-decoration: none;
+}
+.colors-custom .site-info a:hover {
+  color: #fff;
+  box-shadow: inset 0 0 0 #fff, 0 1px 0 #fff;
+  box-shadow: inset 0 0 0 #fff, 0 0 0 #fff;
+}
+
+.colors-custom.twentyseventeen-front-page .panel-content .recent-posts article {
+  color: #333;
+}
+
+.colors-custom.page:not(.twentyseventeen-front-page) .entry-title {
+  color: #333;
+  color: #333333;
+}
+
+.colors-custom.blog .entry-meta a.post-edit-link {
+  color: hsl(11deg, 99%, 43%);
+}
+
+.colors-custom.archive .entry-meta a.post-edit-link {
+  color: hsl(11deg, 99%, 43%);
+}
+
+.colors-custom.search .entry-meta a.post-edit-link {
+  color: hsl(11deg, 99%, 43%);
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.search-form .search-submit {
+  top: 19px;
+  border-radius: 30px;
+}
+
+.home .entry-content {
+  line-height: 1.7;
+  text-align: left;
+}
+.home .entry-content .lang {
+  display: none;
+}
+.home .entry-content p:first-of-type {
+  margin-bottom: 0;
+}
+.home .custom-header:after {
+  display: block;
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("https://torino.wordcamp.org/2020/files/2021/09/Progetto-senza-titolo.png");
+  background-position: center 60%;
+  background-size: 50%;
+  width: 100%;
+  height: 60%;
+  top: 0;
+}
+.home a.more-link.cta {
+  background-color: #da2902;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 20px;
+  transition: border-radius 300ms, color 500ms;
+}
+.home a.more-link.cta:hover {
+  background-color: #ff8200;
+  color: #fff;
+  border-radius: 6px;
+}
+.home a.more-link {
+  background-color: #da2902;
+  color: #fff;
+}
+.home a.more-link:hover {
+  background-color: #ff8200;
+  color: #fff;
+}
+.home #primary:after {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background: #fff;
+  margin-top: -65px;
+}
+.home p.ita:before {
+  display: none;
+}
+.home p.eng:before {
+  display: none;
+}
+.home #post-386 .panel-image {
+  display: none;
+  visibility: hidden;
+}
+
+.navigation-top {
+  background-color: #ff8200;
+  color: #fff;
+  border: none;
+}
+.navigation-top:before {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background-color: #da2901;
+  top: -68px;
+}
+.navigation-top:after {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background-color: #da2901;
+  bottom: -10px;
+}
+.navigation-top a {
+  color: #fff;
+  font-size: 1.1em;
+}
+.navigation-top nav {
+  float: right;
+  position: relative;
+  z-index: 10;
+}
+.navigation-top nav li.cta {
+  background-color: #fff;
+  border-radius: 30px;
+  transition: border-radius 300ms, background-color 600ms;
+}
+.navigation-top nav li.cta:hover {
+  background-color: #f9b90e;
+  border-radius: 6px;
+}
+.navigation-top nav li.cta a {
+  color: #a42840;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.site-navigation-fixed.navigation-top .wrap {
+  position: relative;
+  top: 15px;
+}
+.site-navigation-fixed.navigation-top .wrap:before {
+  background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+  background-size: contain;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  min-height: 75px;
+  width: 200px;
+}
+
+.site-header .menu-scroll-down {
+  display: none;
+}
+
+.main-navigation ul ul {
+  background-color: #da2901;
+  border-color: #fff;
+}
+.main-navigation ul li.menu-item-has-children::before {
+  border-color: transparent;
+}
+.main-navigation ul li.menu-item-has-children::after {
+  border-bottom-color: #fff;
+}
+.main-navigation ul li.page_item_has_children::before {
+  border-color: transparent;
+}
+.main-navigation ul li.page_item_has_children::after {
+  border-bottom-color: #fff;
+}
+.main-navigation li li:hover {
+  background-color: #da2901;
+  background-color: #da2901;
+}
+
+.has-header-video.twentyseventeen-front-page .custom-header {
+  position: relative;
+}
+.has-header-video.twentyseventeen-front-page .site-branding {
+  z-index: 4;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wp-custom-header .wp-custom-header-video-button  {
+  z-index: 5;
+}
+
+.has-header-image.twentyseventeen-front-page .site-branding {
+  z-index: 4;
+  font-family: "Montserrat", sans-serif;
+}
+
+body.has-header-image .site-title a {
+  color: #fff;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 300%;
+  text-shadow: 3px 3px 1px #000;
+  text-align: center;
+  display: none;
+}
+body.has-header-image .site-description {
+  color: #fff;
+  opacity: 1;
+  font-size: 300%;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 2px 1px #000;
+  text-align: center;
+}
+
+body.has-header-video .site-description {
+  color: #fff;
+  opacity: 1;
+  font-size: 300%;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 2px 1px #000;
+  text-align: center;
+}
+
+.page .panel-content .entry-title {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+  color: #da2902;
+  font-size: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.page .panel-content .entry-content {
+  text-align: left;
+  padding-bottom: 40px;
+}
+.page:not(.home) .custom-header-media::before {
+  background-color: rgba(164, 40, 64, 0.55);
+}
+.page:not(.home) .navigation-top .wrap:before {
+  display: block;
+}
+.page:not(.home) #content {
+  padding-bottom: 40px;
+}
+.page .navigation-top .wrap:before {
+  background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+  background-size: contain;
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  min-height: 75px;
+  width: 200px;
+  font-size: 180%;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 2px #da2902;
+}
+
+.page-title {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+body.page:not(.twentyseventeen-front-page) .entry-title {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.more-link {
+  background-color: #353535;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 12px 16px;
+  display: inline-block;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+a.more-link:hover {
+  background-color: #a42840;
+  box-shadow: none !important;
+  color: #fff;
+  text-decoration: none;
+}
+
+.more-link.disabled {
+  background-color: #aaa;
+}
+
+a.more-link.disabled:hover {
+  background-color: #aaa;
+}
+
+.entry-content .more-link:before {
+  display: none;
+}
+.entry-content ul {
+  margin-left: 48px;
+}
+.entry-content h3 {
+  color: #666;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.background-fixed .panel-image {
+  position: relative;
+}
+.background-fixed .panel-image:before {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background: #fff;
+  top: -70px;
+  background: #fff;
+}
+.background-fixed .panel-image:after {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background: #fff;
+  bottom: -5px;
+  background: #fff;
+}
+
+.site-footer {
+  background-color: #ff8200;
+  color: #fff;
+  position: relative;
+}
+.site-footer:before {
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  background: #ff8200;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+}
+.site-footer .wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.site-content-contain {
+  overflow: hidden;
+}
+
+.twentyseventeen-front-page.page-one-column .entry-header {
+  margin-bottom: 30px;
+}
+
+.panel-content {
+  background: #fff;
+  color: #333;
+}
+.panel-content a {
+  color: #333;
+  box-shadow: inset 0 -1px 0 #da2901;
+}
+.panel-content a:hover {
+  color: #fff;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgb(255, 255, 255);
+}
+.panel-content a.more-link:hover {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgb(255, 255, 255);
+}
+
+.single-featured-image-header {
+  display: none;
+  visibility: hidden;
+  height: 0;
+}
+
+.single .custom-header-media::before {
+  background-color: rgba(164, 40, 64, 0.55);
+}
+.single .navigation-top .wrap:before {
+  background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+  background-size: contain;
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  min-height: 75px;
+  width: 200px;
+  font-size: 180%;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 2px #da2902;
+  display: block;
+}
+
+.custom-header-media:before {
+  background: none !important;
+}
+
+.has-header-image .custom-header-media img {
+  -o-object-position: 0 76%;
+     object-position: 0 76%;
+}
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+  -o-object-position: 0 76%;
+     object-position: 0 76%;
+  -o-object-position: 0 40%;
+     object-position: 0 40%;
+}
+
+.has-header-video .custom-header-media video {
+  -o-object-position: 0 76%;
+     object-position: 0 76%;
+}
+.has-header-video .custom-header-media iframe {
+  -o-object-position: 0 76%;
+     object-position: 0 76%;
+}
+
+.custom-header .site-branding {
+  padding: 8em 0;
+}
+
+.page-slug-sponsors {
+  text-align: center;
+}
+.page-slug-sponsors .entry-content h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.wcorg-sponsors > div:not(:first-of-type) {
+  margin-top: 80px;
+  padding-top: 40px;
+}
+
+.wcorg-sponsor h3 {
+  display: none;
+  visibility: hidden;
+}
+
+p.ita {
+  position: relative;
+}
+p.ita:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: -40px;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+p.eng {
+  position: relative;
+  margin-top: 50px;
+}
+p.eng:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: -40px;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.sharedaddy {
+  padding-bottom: 48px;
+}
+
+.twentyseventeen-front-page .site-content {
+  padding-bottom: 40px;
+}
+
+.menu-toggle {
+  color: #fff;
+}
+
+.page-id-13 td strong {
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.page-id-13 td .tix-ticket-excerpt {
+  font-size: 14px;
+}
+.page-id-13 td.tix-column-remaining {
+  text-align: center;
+}
+.page-id-13 td.tix-column-quantity {
+  text-align: right;
+}
+.page-id-13 input[type=submit] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+.page-id-13 input[type=submit]:hover {
+  background-color: #f9b90e;
+  color: #a42840;
+}
+
+footer .widget .widget-title {
+  color: #f9b90e;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+}
+footer .widget.widget_wpcom_social_media_icons_widget li a {
+  border-bottom: none;
+  box-shadow: none;
+  font-size: 32px;
+  background: #fff;
+  border-radius: 50%;
+  color: #a42840;
+  padding: 8px;
+}
+footer .widget.widget_wpcom_social_media_icons_widget li a:hover {
+  color: #f9b90e;
+  box-shadow: 0 2px 0 #f9b90e;
+}
+footer .jetpack_subscription_widget #subscribe-submit input {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+footer .jetpack_subscription_widget #subscribe-submit input:hover {
+  background-color: #f9b90e;
+  color: #a42840;
+}
+
+.widget.widget_wpcom_social_media_icons_widget li {
+  border-bottom: none;
+  border-top: none;
+  box-shadow: none;
+  margin-right: 15px;
+}
+
+input[type=text] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=email] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=url] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=password] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=search] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=number] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=tel] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=range] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=date] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=month] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=week] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=time] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=submit] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+input[type=submit]:hover {
+  background-color: #f9b90e;
+  color: #a42840;
+}
+
+input[type=datetime] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=datetime-local] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=color] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+textarea {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+#tix-attendees .tix-columns-3 li {
+  width: calc(33.3333333333% - 15px);
+}
+#tix-attendees li {
+  margin: 0 7.5px 15px;
+  background-color: #eee;
+  padding: 10px;
+}
+#tix-attendees li a.tix-field {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: none;
+}
+#tix-attendees li a.tix-field:hover {
+  text-decoration: underline;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.page.page-slug-attendees .entry-header {
+  margin: 0;
+}
+
+.page.page-slug-schedule:not(.twentyseventeen-front-page) #primary {
+  max-width: 100%;
+}
+
+table.wcpt-schedule {
+  border: 1px solid #8e001c;
+  text-align: center;
+}
+table.wcpt-schedule th {
+  border: 1px solid #8e001c;
+  text-align: center;
+}
+table.wcpt-schedule td {
+  border: 1px solid #8e001c;
+  text-align: center;
+}
+table.wcpt-schedule tr.even {
+  background: #ffe8be;
+}
+table.wcpt-schedule tr.alt {
+  background: #ffe8be;
+}
+table.wcpt-schedule tr:nth-of-type(2n) {
+  background: #ffe8be;
+}
+
+.wcpt-schedule {
+  border: none;
+}
+.wcpt-schedule td {
+  padding: 0.6em;
+}
+.wcpt-schedule td:first-child {
+  padding: 0.6em;
+}
+.wcpt-schedule td:last-child {
+  padding: 0.6em;
+}
+.wcpt-schedule td a {
+  display: block;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: none;
+  font-weight: 600;
+}
+.wcpt-schedule td a:hover {
+  text-decoration: underline;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.wcpt-schedule .global-session:not(.la-community-italiana-di-wordpress-nel-2017-tra-team-globale-e-esperienze-locali-ita) {
+  background-color: #8e001c;
+  color: #fff;
+}
+.wcpt-schedule .global-session:not(.la-community-italiana-di-wordpress-nel-2017-tra-team-globale-e-esperienze-locali-ita) td {
+  border-color: #fff;
+}
+.wcpt-schedule th {
+  text-transform: uppercase;
+  color: #8e001c;
+  font-weight: 700;
+}
+
+.wcpt-session-speakers {
+  font-size: 12px;
+}
+
+.wcb-session-favourite-icon {
+  display: none;
+}
+
+.displeibloc {
+  display: block !important;
+}
+
+.site-branding a:hover {
+  opacity: 1;
+}
+.site-branding a:focus {
+  opacity: 1;
+}
+
+.site-info a {
+  box-shadow: none;
+}
+
+h2.padding-top-title {
+  padding-top: 160px;
+}
+
+#eu-cookie-law {
+  color: #333;
+}
+#eu-cookie-law input {
+  color: #333;
+}
+
+.icon.icon-angle-down {
+  color: #fff;
+}
+
+.blog .site-main > article {
+  margin-bottom: 5em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 3em;
+}
+
+.archive .site-main > article {
+  margin-bottom: 5em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 3em;
+}
+
+.search .site-main > article {
+  margin-bottom: 5em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 3em;
+}
+
+.wp-block-image img {
+  width: 100%;
+}
+
+h2.widget-title {
+  font-size: 1em;
+}
+
+li.ticket-css {
+  background-color: #f87e15;
+  border-radius: 30px;
+  padding: 0 5px;
+}
+li.ticket-css:hover {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0 5px;
+}
+
+a.widget-tikets {
+  background-color: #da2901;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+input#tix-coupon-input {
+  margin-bottom: 10px;
+}
+
+#tix .tix-submit .tix-checkout-button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0 none;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  clear: both;
+  display: block;
+  float: right;
+  margin-top: 20px;
+}
+
+a.imprint:after {
+  content: " - photo credits Pietro Cardone";
+  font-size: 90%;
+}
+
+.page-id-12 .entry-content h3 {
+  color: #da2901;
+  font-weight: bold;
+}
+.page-id-12 .entry-content ul {
+  margin-left: 0;
+}
+.page-id-12 img.avatar.avatar-150.photo {
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+  padding: 6px;
+  width: 200px;
+}
+
+.wordcamp-organizer.wordcamp-organizers__post {
+  margin-bottom: 4em;
+}
+
+.sponsor-level {
+  color: #da2901 !important;
+  text-align: left;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 0.5em;
+  margin-top: 2em;
+}
+
+@media screen and (min-width: 48em) {
+  .main-navigation a {
+    padding: 1em 0.5em;
+  }
+  .colors-custom .main-navigation ul ul {
+    border-color: #fff;
+    background: #da2901;
+  }
+  .colors-custom .main-navigation ul li.menu-item-has-children:after {
+    border-bottom-color: #fff;
+  }
+  .colors-custom .main-navigation ul li.page_item_has_children:after {
+    border-bottom-color: #fff;
+  }
+  .colors-custom .main-navigation li li:hover {
+    background: #da2901;
+  }
+  .colors-custom .main-navigation li li.focus {
+    background: #da2901;
+  }
+  .has-sidebar #secondary {
+    width: 29%;
+  }
+  .has-sidebar:not(.error404) #primary {
+    width: 66%;
+  }
+}
+@media screen and (max-width: 766px) {
+  .page .navigation-top .wrap::before {
+    background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+    background-size: auto auto;
+    background-size: contain;
+    content: " ";
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    min-height: 75px;
+    display: block;
+    left: 50px;
+    width: calc(100% - 100px);
+  }
+  .home .navigation-top .wrap::before {
+    background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+    background-size: auto auto;
+    background-size: contain;
+    content: " ";
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    min-height: 75px;
+    display: block;
+    left: 50px;
+    width: calc(100% - 100px);
+  }
+  .single .navigation-top .wrap::before {
+    background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+    background-size: auto auto;
+    background-size: contain;
+    content: " ";
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    min-height: 75px;
+    display: block;
+    left: 50px;
+    width: calc(100% - 100px);
+  }
+  .archive .navigation-top .wrap::before {
+    background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+    background-size: auto auto;
+    background-size: contain;
+    content: " ";
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    min-height: 75px;
+    display: block;
+    left: 50px;
+    width: calc(100% - 100px);
+  }
+  .site-branding {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .page .navigation-top .wrap::before {
+    background: none;
+  }
+  .page:not(.home) .custom-header:after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png");
+    background-position: center 35%;
+    background-size: 40%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  .home .navigation-top .wrap::before {
+    background: none;
+  }
+  .single .navigation-top .wrap::before {
+    background: none;
+  }
+  .single .custom-header:after {
+    display: block;
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png");
+    background-position: center 35%;
+    background-size: 40%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  .archive .navigation-top .wrap::before {
+    background: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .twentyseventeen-front-page .custom-header::after {
+    left: 0;
+    background-size: 48%;
+    background-position: center center;
+  }
+  .has-header-image.twentyseventeen-front-page .custom-header {
+    display: block;
+    height: auto;
+  }
+  .has-header-image.twentyseventeen-front-page .site-branding {
+    display: none;
+  }
+  .has-header-video.twentyseventeen-front-page .custom-header {
+    display: block;
+    height: auto;
+  }
+  .has-header-video.twentyseventeen-front-page .site-branding {
+    display: none;
+  }
+  .has-header-image.home.blog .custom-header {
+    display: block;
+    height: auto;
+  }
+  .has-header-video.home.blog .custom-header {
+    display: block;
+    height: auto;
+  }
+  .has-header-image .custom-header-media img {
+    position: static;
+    vertical-align: middle;
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .has-header-video .custom-header-media video {
+    position: static;
+    vertical-align: middle;
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .has-header-video .custom-header-media iframe {
+    position: static;
+    vertical-align: middle;
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .custom-header-media {
+    position: static;
+    vertical-align: middle;
+  }
+  .twentyseventeen-front-page.has-header-image .custom-header-media {
+    height: auto;
+  }
+  .twentyseventeen-front-page.has-header-video .custom-header-media {
+    height: auto;
+  }
+  .home.blog.has-header-image .custom-header-media {
+    height: auto;
+  }
+  .home.blog.has-header-video .custom-header-media {
+    height: auto;
+  }
+  .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media {
+    height: auto;
+  }
+  .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media {
+    height: auto;
+  }
+  .admin-bar.home.blog.has-header-image .custom-header-media {
+    height: auto;
+  }
+  .admin-bar.home.blog.has-header-video .custom-header-media {
+    height: auto;
+  }
+  .navigation-top::before {
+    display: none;
+  }
+  .navigation-top::after {
+    display: none;
+  }
+  .navigation-top nav {
+    float: none;
+  }
+  .navigation-top a {
+    color: #222;
+  }
+  #masthead .wrap {
+    min-height: 75px;
+  }
+  .js .menu-toggle {
+    height: 75px;
+    float: right;
+    margin: 0;
+    outline: none;
+    display: block;
+  }
+  .js .main-navigation ul {
+    display: none;
+  }
+  .js .main-navigation ul ul.sub-menu {
+    background-color: #da2901;
+  }
+  .js .main-navigation > div > ul {
+    display: none;
+  }
+  .menu-primary-container {
+    clear: both;
+  }
+  .main-navigation ul ul {
+    background-color: transparent;
+  }
+  .main-navigation ul ul a {
+    color: #222;
+  }
+  .main-navigation li li:hover {
+    background-color: transparent;
+  }
+  .main-navigation ul.sub-menu a:hover {
+    color: #fac20a;
+  }
+  .main-navigation ul.sub-menu a:focus {
+    color: #fac20a;
+  }
+  .custom-header .site-branding {
+    padding: 7em 0;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .has-header-image .custom-header-media img {
+    -o-object-position: 0 81%;
+       object-position: 0 81%;
+  }
+  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 81%;
+       object-position: 0 81%;
+  }
+  .has-header-video .custom-header-media video {
+    -o-object-position: 0 81%;
+       object-position: 0 81%;
+  }
+  .has-header-video .custom-header-media iframe {
+    -o-object-position: 0 81%;
+       object-position: 0 81%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .has-header-image .custom-header-media img {
+    -o-object-position: 0 86%;
+       object-position: 0 86%;
+  }
+  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 86%;
+       object-position: 0 86%;
+  }
+  .has-header-video .custom-header-media video {
+    -o-object-position: 0 86%;
+       object-position: 0 86%;
+  }
+  .has-header-video .custom-header-media iframe {
+    -o-object-position: 0 86%;
+       object-position: 0 86%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .has-header-image .custom-header-media img {
+    -o-object-position: 0 110%;
+       object-position: 0 110%;
+  }
+  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 110%;
+       object-position: 0 110%;
+  }
+  .has-header-video .custom-header-media video {
+    -o-object-position: 0 110%;
+       object-position: 0 110%;
+  }
+  .has-header-video .custom-header-media iframe {
+    -o-object-position: 0 110%;
+       object-position: 0 110%;
+  }
+}
+@media screen and (max-width: 47.999em) {
+  .has-header-image .custom-header-media img {
+    -o-object-position: 0 66%;
+       object-position: 0 66%;
+  }
+  .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 66%;
+       object-position: 0 66%;
+  }
+  .has-header-video .custom-header-media video {
+    -o-object-position: 0 66%;
+       object-position: 0 66%;
+  }
+  .has-header-video .custom-header-media iframe {
+    -o-object-position: 0 66%;
+       object-position: 0 66%;
+  }
+  .custom-header .site-branding {
+    padding: 1em 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  p.ita::before {
+    position: static;
+    left: auto;
+  }
+  p.eng::before {
+    position: static;
+    left: auto;
+  }
+  .custom-header {
+    display: none;
+  }
+  .page .navigation-top .wrap::before {
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+  }
+  .single .navigation-top .wrap::before {
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+  }
+  .archive .navigation-top .wrap::before {
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+  }
+  .navigation-top nav {
+    padding-top: 75px;
+  }
+  .js .menu-toggle {
+    height: auto;
+    float: none;
+    padding: 17px 14px;
+    margin: 0 auto;
+  }
+  #tix-attendees .tix-columns-3 li {
+    width: calc(50% - 15px);
+  }
+}
+@media screen and (max-width: 1025px) {
+  .navigation-top .wrap {
+    background: #da2901;
+    margin-top: 0;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .navigation-top .wrap {
+    background: #da2901;
+    margin-top: -3px;
+  }
+  .page .navigation-top .wrap:before {
+    font-size: 170%;
+  }
+  .single .navigation-top .wrap:before {
+    font-size: 170%;
+  }
+  .js .menu-toggle {
+    color: #fff;
+  }
+  .js .main-navigation ul ul.sub-menu {
+    background-color: #da2901;
+  }
+  .site-navigation-fixed.navigation-top .wrap {
+    top: 0;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .colors-custom .menu-toggle {
+    margin-top: -10px;
+  }
+  .colors-custom .menu-toggle:hover {
+    margin-top: -10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrap {
+    max-width: 1000px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: 18px;
+    font-size: 0.9rem;
+  }
+  body.has-header-image .site-description {
+    color: #fff;
+    opacity: 1;
+    font-size: 170%;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 2px 1px #000;
+    text-align: center;
+  }
+  body.has-header-video .site-description {
+    color: #fff;
+    opacity: 1;
+    font-size: 170%;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 2px 1px #000;
+    text-align: center;
+  }
+  .colors-custom.has-header-image .site-title a {
+    color: #da2901;
+  }
+  .colors-custom.has-header-image .site-description {
+    color: #da2901;
+  }
+}
+@media screen and (max-width: 769px) {
+  a.widget-tikets {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 767px) {
+  li.ticket-css {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+}/*# sourceMappingURL=wctr23.css.map */
