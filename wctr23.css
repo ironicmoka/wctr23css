@@ -31,7 +31,7 @@ p.eng:before {
 /* Sponsor Page */
 body {
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -40,59 +40,59 @@ body:not(.title-tagline-hidden) .site-branding-text {
 }
 
 body.colors-custom {
-  color: #333;
+  color: #333333;
 }
 
 .colors-custom input {
-  color: #333;
+  color: #333333;
 }
 .colors-custom select {
-  color: #333;
-  border-color: #666;
+  color: #333333;
+  border-color: #666666;
 }
 .colors-custom textarea {
-  color: #333;
-  border-color: #666;
-  color: #666;
+  color: #333333;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom textarea:focus {
   color: #333333;
 }
 .colors-custom h3 {
-  color: #333;
+  color: #333333;
 }
 .colors-custom h4 {
-  color: #333;
+  color: #333333;
 }
 .colors-custom h6 {
-  color: #333;
+  color: #333333;
 }
 .colors-custom label {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .entry-title a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .entry-footer .cat-links a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .entry-footer .tags-links a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .entry-footer .edit-link a.post-edit-link {
-  background-color: hsl(11deg, 99%, 43%);
+  background-color: rgb(67, 16, 4);
 }
 .colors-custom .format-quote blockquote {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .nav-title {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .comment-body {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
   color: hsl(11deg, 99%, 43%);
@@ -101,40 +101,40 @@ body.colors-custom {
   color: #333333;
 }
 .colors-custom .entry-content a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .entry-content blockquote.alignleft {
-  color: #666;
+  color: #666666;
 }
 .colors-custom .entry-content blockquote.alignright {
-  color: #666;
+  color: #666666;
 }
 .colors-custom .entry-summary a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .comment-content a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .widget a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .widget .tagcloud a:hover {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom .widget .tagcloud a:focus {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom .widget a.widget-tikets {
   color: #fff;
 }
 .colors-custom .site-footer .widget-area a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .posts-navigation a {
-  color: #333;
+  color: #333333;
 }
 .colors-custom .widget_authors a strong {
-  color: #333;
+  color: #333333;
 }
 .colors-custom h5 {
   color: hsl(11deg, 99%, 43%);
@@ -144,7 +144,7 @@ body.colors-custom {
 }
 .colors-custom .entry-meta a {
   color: hsl(11deg, 99%, 43%);
-  color: #da2901 !important;
+  color: #da2902 !important;
 }
 .colors-custom .nav-subtitle {
   color: hsl(11deg, 99%, 43%);
@@ -186,7 +186,6 @@ body.colors-custom {
   color: #f87e15 !important;
 }
 .colors-custom .navigation-top a {
-  color: #333333;
   color: #fff;
   font-weight: bold;
   letter-spacing: 0.05rem;
@@ -203,137 +202,137 @@ body.colors-custom {
   font-size: 1.1em;
 }
 .colors-custom .main-navigation ul {
-  background: rgba(255, 255, 255, 0);
+  background: transparent;
 }
 .colors-custom .main-navigation .ticket-css a:hover {
-  color: #da2901;
+  color: #da2902;
 }
 .colors-custom input[type=text] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=text]:focus {
   color: #333333;
 }
 .colors-custom input[type=email] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=email]:focus {
   color: #333333;
 }
 .colors-custom input[type=url] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=url]:focus {
   color: #333333;
 }
 .colors-custom input[type=password] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=password]:focus {
   color: #333333;
 }
 .colors-custom input[type=search] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=search]:focus {
   color: #333333;
 }
 .colors-custom input[type=number] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=number]:focus {
   color: #333333;
 }
 .colors-custom input[type=tel] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=tel]:focus {
   color: #333333;
 }
 .colors-custom input[type=range] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=range]:focus {
   color: #333333;
 }
 .colors-custom input[type=date] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=date]:focus {
   color: #333333;
 }
 .colors-custom input[type=month] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=month]:focus {
   color: #333333;
 }
 .colors-custom input[type=week] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=week]:focus {
   color: #333333;
 }
 .colors-custom input[type=time] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=time]:focus {
   color: #333333;
 }
 .colors-custom input[type=datetime] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=datetime]:focus {
   color: #333333;
 }
 .colors-custom input[type=datetime-local] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=color] {
-  border-color: #666;
-  color: #666;
+  border-color: #666666;
+  color: #666666;
 }
 .colors-custom input[type=color]:focus {
   color: #333333;
 }
 .colors-custom fieldset {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom .widget.widget_tag_cloud a:hover {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom .widget.widget_tag_cloud a:focus {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom .wp_widget_tag_cloud a:hover {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom .wp_widget_tag_cloud a:focus {
-  border-color: #666;
+  border-color: #666666;
 }
 .colors-custom button {
-  background-color: hsl(11deg, 99%, 43%);
+  background-color: rgb(67, 16, 4);
   border-radius: 31px;
 }
 .colors-custom input[type=button] {
-  background-color: hsl(11deg, 99%, 43%);
+  background-color: rgb(67, 16, 4);
 }
 .colors-custom input[type=submit] {
-  background-color: hsl(11deg, 99%, 43%);
+  background-color: rgb(67, 16, 4);
 }
 .colors-custom hr {
   background: #333;
@@ -342,7 +341,7 @@ body.colors-custom {
   color: #333333;
 }
 .colors-custom .colors-custom .taxonomy-description {
-  color: #666;
+  color: #666666;
 }
 .colors-custom button.secondary {
   color: #333333;
@@ -401,20 +400,20 @@ body.colors-custom {
   color: #333333;
 }
 .colors-custom h2 {
-  color: #666;
+  color: #666666;
   font-weight: 900;
 }
 .colors-custom blockquote {
-  color: #666;
+  color: #666666;
 }
 .colors-custom .site-description {
-  color: #666;
+  color: #666666;
 }
 .colors-custom .wp-caption {
-  color: #666;
+  color: #666666;
 }
 .colors-custom .gallery-caption {
-  color: #666;
+  color: #666666;
 }
 .colors-custom .site-info a {
   color: #fff;
@@ -427,11 +426,11 @@ body.colors-custom {
 }
 
 .colors-custom.twentyseventeen-front-page .panel-content .recent-posts article {
-  color: #333;
+  color: #333333;
 }
 
 .colors-custom.page:not(.twentyseventeen-front-page) .entry-title {
-  color: #333;
+  color: #333333;
   color: #333333;
 }
 
@@ -538,7 +537,7 @@ h2 {
   transform: rotate(-2deg) translateX(-50%);
   -webkit-transform: rotate(-2deg) translateX(-50%);
   -moz-transform: rotate(-2deg) translateX(-50%);
-  background-color: #da2901;
+  background-color: #da2902;
   top: -68px;
 }
 .navigation-top:after {
@@ -551,7 +550,7 @@ h2 {
   transform: rotate(-2deg) translateX(-50%);
   -webkit-transform: rotate(-2deg) translateX(-50%);
   -moz-transform: rotate(-2deg) translateX(-50%);
-  background-color: #da2901;
+  background-color: #da2902;
   bottom: -10px;
 }
 .navigation-top a {
@@ -599,7 +598,7 @@ h2 {
 }
 
 .main-navigation ul ul {
-  background-color: #da2901;
+  background-color: #da2902;
   border-color: #fff;
 }
 .main-navigation ul li.menu-item-has-children::before {
@@ -615,8 +614,8 @@ h2 {
   border-bottom-color: #fff;
 }
 .main-navigation li li:hover {
-  background-color: #da2901;
-  background-color: #da2901;
+  background-color: #da2902;
+  background-color: #da2902;
 }
 
 .has-header-video.twentyseventeen-front-page .custom-header {
@@ -624,7 +623,7 @@ h2 {
 }
 .has-header-video.twentyseventeen-front-page .site-branding {
   z-index: 4;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
 }
 
 .wp-custom-header .wp-custom-header-video-button  {
@@ -633,13 +632,13 @@ h2 {
 
 .has-header-image.twentyseventeen-front-page .site-branding {
   z-index: 4;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
 }
 
 body.has-header-image .site-title a {
   color: #fff;
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 300%;
   text-shadow: 3px 3px 1px #000;
   text-align: center;
@@ -649,7 +648,7 @@ body.has-header-image .site-description {
   color: #fff;
   opacity: 1;
   font-size: 300%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   text-shadow: 1px 2px 1px #000;
   text-align: center;
 }
@@ -658,7 +657,7 @@ body.has-header-video .site-description {
   color: #fff;
   opacity: 1;
   font-size: 300%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   text-shadow: 1px 2px 1px #000;
   text-align: center;
 }
@@ -749,7 +748,7 @@ a.more-link.disabled:hover {
   margin-left: 48px;
 }
 .entry-content h3 {
-  color: #666;
+  color: #666666;
   font-size: 20px;
   line-height: 1;
 }
@@ -819,11 +818,11 @@ a.more-link.disabled:hover {
 
 .panel-content {
   background: #fff;
-  color: #333;
+  color: #333333;
 }
 .panel-content a {
-  color: #333;
-  box-shadow: inset 0 -1px 0 #da2901;
+  color: #333333;
+  box-shadow: inset 0 -1px 0 #da2902;
 }
 .panel-content a:hover {
   color: #fff;
@@ -1215,10 +1214,10 @@ h2.padding-top-title {
 }
 
 #eu-cookie-law {
-  color: #333;
+  color: #333333;
 }
 #eu-cookie-law input {
-  color: #333;
+  color: #333333;
 }
 
 .icon.icon-angle-down {
@@ -1263,7 +1262,7 @@ li.ticket-css:hover {
 }
 
 a.widget-tikets {
-  background-color: #da2901;
+  background-color: #da2902;
   padding: 20px;
   text-decoration: none;
   border-radius: 30px;
@@ -1294,7 +1293,7 @@ a.imprint:after {
 }
 
 .page-id-12 .entry-content h3 {
-  color: #da2901;
+  color: #da2902;
   font-weight: bold;
 }
 .page-id-12 .entry-content ul {
@@ -1312,7 +1311,7 @@ a.imprint:after {
 }
 
 .sponsor-level {
-  color: #da2901 !important;
+  color: #da2902 !important;
   text-align: left;
   border-top: 1px solid #d6d6d6;
   padding-top: 0.5em;
@@ -1325,7 +1324,7 @@ a.imprint:after {
   }
   .colors-custom .main-navigation ul ul {
     border-color: #fff;
-    background: #da2901;
+    background: #da2902;
   }
   .colors-custom .main-navigation ul li.menu-item-has-children:after {
     border-bottom-color: #fff;
@@ -1334,10 +1333,10 @@ a.imprint:after {
     border-bottom-color: #fff;
   }
   .colors-custom .main-navigation li li:hover {
-    background: #da2901;
+    background: #da2902;
   }
   .colors-custom .main-navigation li li.focus {
-    background: #da2901;
+    background: #da2902;
   }
   .has-sidebar #secondary {
     width: 29%;
@@ -1545,16 +1544,13 @@ a.imprint:after {
     display: none;
   }
   .js .main-navigation ul ul.sub-menu {
-    background-color: #da2901;
+    background-color: #da2902;
   }
   .js .main-navigation > div > ul {
     display: none;
   }
   .menu-primary-container {
     clear: both;
-  }
-  .main-navigation ul ul {
-    background-color: transparent;
   }
   .main-navigation ul ul a {
     color: #222;
@@ -1695,14 +1691,14 @@ a.imprint:after {
 }
 @media screen and (max-width: 1025px) {
   .navigation-top .wrap {
-    background: #da2901;
+    background: #da2902;
     margin-top: 0;
     max-width: 100%;
   }
 }
 @media screen and (max-width: 1023px) {
   .navigation-top .wrap {
-    background: #da2901;
+    background: #da2902;
     margin-top: -3px;
   }
   .page .navigation-top .wrap:before {
@@ -1715,7 +1711,7 @@ a.imprint:after {
     color: #fff;
   }
   .js .main-navigation ul ul.sub-menu {
-    background-color: #da2901;
+    background-color: #da2902;
   }
   .site-navigation-fixed.navigation-top .wrap {
     top: 0;
@@ -1745,7 +1741,7 @@ a.imprint:after {
     color: #fff;
     opacity: 1;
     font-size: 170%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     text-shadow: 1px 2px 1px #000;
     text-align: center;
   }
@@ -1753,15 +1749,15 @@ a.imprint:after {
     color: #fff;
     opacity: 1;
     font-size: 170%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     text-shadow: 1px 2px 1px #000;
     text-align: center;
   }
   .colors-custom.has-header-image .site-title a {
-    color: #da2901;
+    color: #da2902;
   }
   .colors-custom.has-header-image .site-description {
-    color: #da2901;
+    color: #da2902;
   }
 }
 @media screen and (max-width: 769px) {

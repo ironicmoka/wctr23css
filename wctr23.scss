@@ -1,38 +1,30 @@
-$color_1: #333;
+$bianco: #fff;
+$grigio_chiarissimo: #aaa;
+$grigio_chiaro: #666666;
+$grigio: #333333;
+$border-bottom-color_1: #fff;
+
+$rosso: #da2902;
+$rosso_scuro: #a42840;
+$rosso_scuro_2: #8e001c;
+
 $color_2: hsl(11,99%,43%);
-$color_3: #333333;
-$color_4: #fff;
-$color_5: #a42840;
+$background-color_1: rgb(67, 16, 4);
+
 $color_6: #ffe06c;
-$color_7: #da2902;
-$color_8: #666;
-$color_9: #f9b90e;
-$color_10: #8e001c;
-$color_11: #222;
 $color_12: #fac20a;
-$color_13: #da2901;
+$color_9: #f9b90e;
 $color_14: #f87e15;
-$font-family_1: 'Montserrat', sans-serif;
-$font-family_2: "Montserrat", "Helvetica", "Arial", sans-serif;
-$font-family_3: Raleway, sans-serif;
-$background-color_1: hsl(11,99%,43%);
+
+$color_11: #222;
+$monserrat: "Montserrat", "Helvetica", "Arial", sans-serif;
+$raleway: Raleway, sans-serif;
 $background-color_2: #ff8200;
-$background-color_3: #da2901;
-$background-color_4: #fff;
 $background-color_5: #f9b90e;
 $background-color_6: #353535;
-$background-color_7: #a42840;
-$background-color_8: #aaa;
-$background-color_9: #da2902;
 $background-color_10: rgba(164,40,64,0.55);
 $background-color_11: #eee;
-$background-color_12: #8e001c;
-$background-color_13: transparent;
 $background-color_14: #f87e15;
-$border-color_1: #666;
-$border-color_2: transparent;
-$border-color_3: #fff;
-$border-bottom-color_1: #fff;
 
 /* Custom CSS from torino.wordcamp.org */
 /* Regole Generali */
@@ -66,7 +58,7 @@ p.eng:before {
 /* Sponsor Page */
 body {
 	overflow-x: hidden;
-	font-family: $font-family_1;
+	font-family: $monserrat;
 	font-size: 1.1rem;
 	font-weight: 500;
 	&:not(.title-tagline-hidden) {
@@ -76,50 +68,50 @@ body {
 	}
 }
 body.colors-custom {
-	color: $color_1;
+	color: $grigio;
 }
 .colors-custom {
 	input {
-		color: $color_1;
+		color: $grigio;
 	}
 	select {
-		color: $color_1;
-		border-color: $border-color_1;
+		color: $grigio;
+		border-color: $grigio_chiaro;
 	}
 	textarea {
-		color: $color_1;
-		border-color: $border-color_1;
-		color: $color_8;
+		color: $grigio;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	h3 {
-		color: $color_1;
+		color: $grigio;
 	}
 	h4 {
-		color: $color_1;
+		color: $grigio;
 	}
 	h6 {
-		color: $color_1;
+		color: $grigio;
 	}
 	label {
-		color: $color_1;
+		color: $grigio;
 	}
 	.entry-title {
 		a {
-			color: $color_1;
+			color: $grigio;
 		}
 	}
 	.entry-footer {
 		.cat-links {
 			a {
-				color: $color_1;
+				color: $grigio;
 			}
 		}
 		.tags-links {
 			a {
-				color: $color_1;
+				color: $grigio;
 			}
 		}
 		.edit-link {
@@ -130,20 +122,20 @@ body.colors-custom {
 	}
 	.format-quote {
 		blockquote {
-			color: $color_1;
+			color: $grigio;
 		}
 	}
 	.nav-title {
-		color: $color_1;
+		color: $grigio;
 	}
 	.comment-body {
-		color: $color_1;
+		color: $grigio;
 	}
 	.site-content {
 		.wp-playlist-light {
 			.wp-playlist-current-item {
 				.wp-playlist-item-album {
-					color: $color_1;
+					color: $grigio;
 				}
 				.wp-playlist-item-artist {
 					color: $color_2;
@@ -151,64 +143,64 @@ body.colors-custom {
 			}
 		}
 		.site-content-light {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	.entry-content {
 		a {
-			color: $color_1;
+			color: $grigio;
 		}
 		blockquote.alignleft {
-			color: $color_8;
+			color: $grigio_chiaro;
 		}
 		blockquote.alignright {
-			color: $color_8;
+			color: $grigio_chiaro;
 		}
 	}
 	.entry-summary {
 		a {
-			color: $color_1;
+			color: $grigio;
 		}
 	}
 	.comment-content {
 		a {
-			color: $color_1;
+			color: $grigio;
 		}
 	}
 	.widget {
 		a {
-			color: $color_1;
+			color: $grigio;
 		}
 		.tagcloud {
 			a {
 				&:hover {
-					border-color: $border-color_1;
+					border-color: $grigio_chiaro;
 				}
 				&:focus {
-					border-color: $border-color_1;
+					border-color: $grigio_chiaro;
 				}
 			}
 		}
 		a.widget-tikets {
-			color: $color_4;
+			color: $bianco;
 		}
 	}
 	.site-footer {
 		.widget-area {
 			a {
-				color: $color_1;
+				color: $grigio;
 			}
 		}
 	}
 	.posts-navigation {
 		a {
-			color: $color_1;
+			color: $grigio;
 		}
 	}
 	.widget_authors {
 		a {
 			strong {
-				color: $color_1;
+				color: $grigio;
 			}
 		}
 	}
@@ -219,7 +211,7 @@ body.colors-custom {
 		color: $color_2;
 		a {
 			color: $color_2;
-			color: $color_13 !important;
+			color: $rosso !important;
 		}
 	}
 	.nav-subtitle {
@@ -231,7 +223,7 @@ body.colors-custom {
 			color: $color_2;
 		}
 		a.comment-edit-link {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	.no-comments {
@@ -249,7 +241,7 @@ body.colors-custom {
 		}
 		a {
 			.page-number {
-				color: $color_3;
+				color: $grigio;
 			}
 		}
 	}
@@ -271,15 +263,14 @@ body.colors-custom {
 			}
 		}
 		a {
-			color: $color_3;
-			color: $color_4;
+			color: $bianco;
 			font-weight: bold;
 			letter-spacing: .05rem;
 		}
 		ul {
 			ul {
 				a {
-					color: $color_4;
+					color: $bianco;
 					&:hover {
 						color: $color_6;
 					}
@@ -296,138 +287,138 @@ body.colors-custom {
 			}
 		}
 		ul {
-			background: #ffffff00;
+			background: transparent;
 		}
 		.ticket-css {
 			a {
 				&:hover {
-					color: $color_13;
+					color: $rosso;
 				}
 			}
 		}
 	}
 	input[type="text"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="email"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="url"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="password"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="search"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="number"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="tel"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="range"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="date"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="month"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="week"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="time"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="datetime"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	input[type="datetime-local"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 	}
 	input[type="color"] {
-		border-color: $border-color_1;
-		color: $color_8;
+		border-color: $grigio_chiaro;
+		color: $grigio_chiaro;
 		&:focus {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	fieldset {
-		border-color: $border-color_1;
+		border-color: $grigio_chiaro;
 	}
 	.widget.widget_tag_cloud {
 		a {
 			&:hover {
-				border-color: $border-color_1;
+				border-color: $grigio_chiaro;
 			}
 			&:focus {
-				border-color: $border-color_1;
+				border-color: $grigio_chiaro;
 			}
 		}
 	}
 	.wp_widget_tag_cloud {
 		a {
 			&:hover {
-				border-color: $border-color_1;
+				border-color: $grigio_chiaro;
 			}
 			&:focus {
-				border-color: $border-color_1;
+				border-color: $grigio_chiaro;
 			}
 		}
 	}
@@ -447,76 +438,76 @@ body.colors-custom {
 	.colors-custom {
 		input[type="datetime-local"] {
 			&:focus {
-				color: $color_3;
+				color: $grigio;
 			}
 		}
 		.taxonomy-description {
-			color: $color_8;
+			color: $grigio_chiaro;
 		}
 	}
 	button.secondary {
-		color: $color_3;
+		color: $grigio;
 	}
 	input[type="reset"] {
-		color: $color_3;
+		color: $grigio;
 	}
 	input[type="button"].secondary {
-		color: $color_3;
+		color: $grigio;
 	}
 	input[type="reset"].secondary {
-		color: $color_3;
+		color: $grigio;
 	}
 	input[type="submit"].secondary {
-		color: $color_3;
+		color: $grigio;
 	}
 	a {
-		color: $color_3;
+		color: $grigio;
 	}
 	.site-title {
-		color: $color_3;
+		color: $grigio;
 		a {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	.dropdown-toggle {
-		color: $color_3;
+		color: $grigio;
 	}
 	.menu-toggle {
-		color: $color_3;
-		color: $color_4;
+		color: $grigio;
+		color: $bianco;
 	}
 	.page {
 		.panel-content {
 			.entry-title {
-				color: $color_3;
-				color: $color_7;
+				color: $grigio;
+				color: $rosso;
 			}
 		}
 	}
 	.page-title {
-		color: $color_3;
+		color: $grigio;
 	}
 	.comment-reply-link {
 		.icon {
-			color: $color_3;
+			color: $grigio;
 		}
 	}
 	h2.widget-title {
-		color: $color_3;
+		color: $grigio;
 	}
 	mark {
-		color: $color_3;
+		color: $grigio;
 	}
 	.post-navigation {
 		a {
 			&:focus {
 				.icon {
-					color: $color_3;
+					color: $grigio;
 				}
 			}
 			&:hover {
 				.icon {
-					color: $color_3;
+					color: $grigio;
 				}
 			}
 		}
@@ -525,33 +516,33 @@ body.colors-custom {
 		.recent-posts {
 			.entry-header {
 				.edit-link {
-					color: $color_3;
+					color: $grigio;
 				}
 			}
 		}
 	}
 	h2 {
-		color: $color_8;
+		color: $grigio_chiaro;
 		font-weight: 900;
 	}
 	blockquote {
-		color: $color_8;
+		color: $grigio_chiaro;
 	}
 	.site-description {
-		color: $color_8;
+		color: $grigio_chiaro;
 	}
 	.wp-caption {
-		color: $color_8;
+		color: $grigio_chiaro;
 	}
 	.gallery-caption {
-		color: $color_8;
+		color: $grigio_chiaro;
 	}
 	.site-info {
 		a {
-			color: $color_4;
+			color: $bianco;
 			text-decoration: none;
 			&:hover {
-				color: $color_4;
+				color: $bianco;
 				-webkit-box-shadow: inset 0 0 0 #fff, 0 1px 0 #fff;
 				box-shadow: inset 0 0 0 #fff, 0 1px 0 #fff;
 				-webkit-box-shadow: inset 0 0 0 #fff, 0 0 0 #fff;
@@ -564,7 +555,7 @@ body.colors-custom {
 	.panel-content {
 		.recent-posts {
 			article {
-				color: $color_1;
+				color: $grigio;
 			}
 		}
 	}
@@ -572,8 +563,8 @@ body.colors-custom {
 .colors-custom.page {
 	&:not(.twentyseventeen-front-page) {
 		.entry-title {
-			color: $color_1;
-			color: $color_3;
+			color: $grigio;
+			color: $grigio;
 		}
 	}
 }
@@ -635,24 +626,24 @@ h2 {
 		}
 	}
 	a.more-link.cta {
-		background-color: $background-color_9;
-		color: $color_4;
+		background-color: $rosso;
+		color: $bianco;
 		font-size: 16px;
 		font-weight: 700;
 		padding: 14px 20px;
 		transition: border-radius 300ms, color 500ms;
 		&:hover {
 			background-color: $background-color_2;
-			color: $color_4;
+			color: $bianco;
 			border-radius: 6px;
 		}
 	}
 	a.more-link {
-		background-color: $background-color_9;
-		color: $color_4;
+		background-color: $rosso;
+		color: $bianco;
 		&:hover {
 			background-color: $background-color_2;
-			color: $color_4;
+			color: $bianco;
 		}
 	}
 	#primary {
@@ -689,7 +680,7 @@ h2 {
 }
 .navigation-top {
 	background-color: $background-color_2;
-	color: $color_4;
+	color: $bianco;
 	border: none;
 	&:before {
 		display: block;
@@ -701,7 +692,7 @@ h2 {
 		transform: rotate(-2deg) translateX(-50%);
 		-webkit-transform: rotate(-2deg) translateX(-50%);
 		-moz-transform: rotate(-2deg) translateX(-50%);
-		background-color: $background-color_3;
+		background-color: $rosso;
 		top: -68px;
 	}
 	&:after {
@@ -714,11 +705,11 @@ h2 {
 		transform: rotate(-2deg) translateX(-50%);
 		-webkit-transform: rotate(-2deg) translateX(-50%);
 		-moz-transform: rotate(-2deg) translateX(-50%);
-		background-color: $background-color_3;
+		background-color: $rosso;
 		bottom: -10px;
 	}
 	a {
-		color: $color_4;
+		color: $bianco;
 		font-size: 1.1em;
 	}
 	nav {
@@ -726,7 +717,7 @@ h2 {
 		position: relative;
 		z-index: 10;
 		li.cta {
-			background-color: $background-color_4;
+			background-color: $bianco;
 			border-radius: 30px;
 			transition: border-radius 300ms, background-color 600ms;
 			&:hover {
@@ -734,7 +725,7 @@ h2 {
 				border-radius: 6px;
 			}
 			a {
-				color: $color_5;
+				color: $rosso_scuro;
 				display: inline-block;
 				padding: 10px 20px;
 			}
@@ -766,31 +757,31 @@ h2 {
 .main-navigation {
 	ul {
 		ul {
-			background-color: $background-color_3;
-			border-color: $border-color_3;
+			background-color: $rosso;
+			border-color: $bianco;
 		}
 		li.menu-item-has-children {
 			&::before {
-				border-color: $border-color_2;
+				border-color: transparent;
 			}
 			&::after {
-				border-bottom-color: $border-bottom-color_1;
+				border-bottom-color: $bianco;
 			}
 		}
 		li.page_item_has_children {
 			&::before {
-				border-color: $border-color_2;
+				border-color: transparent;
 			}
 			&::after {
-				border-bottom-color: $border-bottom-color_1;
+				border-bottom-color: $bianco;
 			}
 		}
 	}
 	li {
 		li {
 			&:hover {
-				background-color: $background-color_3;
-				background-color: $background-color_3;
+				background-color: $rosso;
+				background-color: $rosso;
 			}
 		}
 	}
@@ -801,7 +792,7 @@ h2 {
 	}
 	.site-branding {
 		z-index: 4;
-		font-family: $font-family_1;
+		font-family: $monserrat;
 	}
 }
 .wp-custom-header {
@@ -812,15 +803,15 @@ h2 {
 .has-header-image.twentyseventeen-front-page {
 	.site-branding {
 		z-index: 4;
-		font-family: $font-family_1;
+		font-family: $monserrat;
 	}
 }
 body.has-header-image {
 	.site-title {
 		a {
-			color: $color_4;
+			color: $bianco;
 			display: block;
-			font-family: $font-family_1;
+			font-family: $monserrat;
 			font-size: 300%;
 			text-shadow: 3px 3px 1px #000;
 			text-align: center;
@@ -828,20 +819,20 @@ body.has-header-image {
 		}
 	}
 	.site-description {
-		color: $color_4;
+		color: $bianco;
 		opacity: 1;
 		font-size: 300%;
-		font-family: $font-family_1;
+		font-family: $monserrat;
 		text-shadow: 1px 2px 1px #000;
 		text-align: center;
 	}
 }
 body.has-header-video {
 	.site-description {
-		color: $color_4;
+		color: $bianco;
 		opacity: 1;
 		font-size: 300%;
-		font-family: $font-family_1;
+		font-family: $monserrat;
 		text-shadow: 1px 2px 1px #000;
 		text-align: center;
 	}
@@ -849,11 +840,11 @@ body.has-header-video {
 .page {
 	.panel-content {
 		.entry-title {
-			font-family: $font-family_2;
+			font-family: $monserrat;
 			font-size: 26px;
 			text-align: center;
 			font-weight: 700;
-			color: $color_7;
+			color: $rosso;
 			font-size: 30px;
 			font-size: 2rem;
 			font-weight: 600;
@@ -893,14 +884,14 @@ body.has-header-video {
 				width: 200px;
 				font-size: 180%;
 				font-weight: bold;
-				color: $color_4;
+				color: $bianco;
 				text-shadow: 2px 2px 2px #da2902;
 			}
 		}
 	}
 }
 .page-title {
-	font-family: $font-family_2;
+	font-family: $monserrat;
 	font-size: 26px;
 	text-align: center;
 	font-weight: 700;
@@ -908,7 +899,7 @@ body.has-header-video {
 body.page {
 	&:not(.twentyseventeen-front-page) {
 		.entry-title {
-			font-family: $font-family_2;
+			font-family: $monserrat;
 			font-size: 26px;
 			text-align: center;
 			font-weight: 700;
@@ -917,29 +908,29 @@ body.page {
 }
 .more-link {
 	background-color: $background-color_6;
-	color: $color_4;
+	color: $bianco;
 	text-transform: uppercase;
 	border-radius: 30px;
 	padding: 12px 16px;
 	display: inline-block;
-	font-family: $font-family_2;
+	font-family: $monserrat;
 	font-weight: 600;
 	font-size: 14px;
 }
 a.more-link {
 	&:hover {
-		background-color: $background-color_7;
+		background-color: $rosso_scuro;
 		box-shadow: none !important;
-		color: $color_4;
+		color: $bianco;
 		text-decoration: none;
 	}
 }
 .more-link.disabled {
-	background-color: $background-color_8;
+	background-color: $grigio_chiarissimo;
 }
 a.more-link.disabled {
 	&:hover {
-		background-color: $background-color_8;
+		background-color: $grigio_chiarissimo;
 	}
 }
 .entry-content {
@@ -952,7 +943,7 @@ a.more-link.disabled {
 		margin-left: 48px;
 	}
 	h3 {
-		color: $color_8;
+		color: $grigio_chiaro;
 		font-size: 20px;
 		line-height: 1;
 	}
@@ -992,7 +983,7 @@ a.more-link.disabled {
 }
 .site-footer {
 	background-color: $background-color_2;
-	color: $color_4;
+	color: $bianco;
 	position: relative;
 	&:before {
 		content: "";
@@ -1022,13 +1013,13 @@ a.more-link.disabled {
 }
 .panel-content {
 	background: #fff;
-	color: $color_1;
+	color: $grigio;
 	a {
-		color: $color_1;
+		color: $grigio;
 		-webkit-box-shadow: inset 0 -1px 0 #333;
-		box-shadow: inset 0 -1px 0 #da2901;
+		box-shadow: inset 0 -1px 0 $rosso;
 		&:hover {
-			color: $color_4;
+			color: $bianco;
 			-webkit-box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(255,255,255,1);
 			box-shadow: inset 0 0 0 rgba(0,0,0,0), 0 3px 0 rgba(255,255,255,1);
 		}
@@ -1064,7 +1055,7 @@ a.more-link.disabled {
 				width: 200px;
 				font-size: 180%;
 				font-weight: bold;
-				color: $color_4;
+				color: $bianco;
 				text-shadow: 2px 2px 2px #da2902;
 				display: block;
 			}
@@ -1170,7 +1161,7 @@ p.eng {
 	}
 }
 .menu-toggle {
-	color: $color_4;
+	color: $bianco;
 }
 .page-id-13 {
 	td {
@@ -1191,11 +1182,11 @@ p.eng {
 	}
 	input[type="submit"] {
 		border-radius: 30px;
-		font-family: $font-family_3;
+		font-family: $raleway;
 		text-transform: uppercase;
 		&:hover {
 			background-color: $background-color_5;
-			color: $color_5;
+			color: $rosso_scuro;
 		}
 	}
 }
@@ -1203,7 +1194,7 @@ footer {
 	.widget {
 		.widget-title {
 			color: $color_9;
-			font-family: $font-family_3;
+			font-family: $raleway;
 			font-size: 16px;
 		}
 	}
@@ -1215,7 +1206,7 @@ footer {
 				font-size: 32px;
 				background: #fff;
 				border-radius: 50%;
-				color: $color_5;
+				color: $rosso_scuro;
 				padding: 8px;
 				&:hover {
 					color: $color_9;
@@ -1228,11 +1219,11 @@ footer {
 		#subscribe-submit {
 			input {
 				border-radius: 30px;
-				font-family: $font-family_3;
+				font-family: $raleway;
 				text-transform: uppercase;
 				&:hover {
 					background-color: $background-color_5;
-					color: $color_5;
+					color: $rosso_scuro;
 				}
 			}
 		}
@@ -1248,76 +1239,76 @@ footer {
 }
 input[type="text"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="email"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="url"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="password"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="search"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="number"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="tel"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="range"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="date"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="month"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="week"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="time"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="submit"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 	text-transform: uppercase;
 	&:hover {
 		background-color: $background-color_5;
-		color: $color_5;
+		color: $rosso_scuro;
 	}
 }
 input[type="datetime"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="datetime-local"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 input[type="color"] {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 textarea {
 	border-radius: 30px;
-	font-family: $font-family_3;
+	font-family: $raleway;
 }
 label {
 	padding-bottom: 10px;
@@ -1406,16 +1397,16 @@ table.wcpt-schedule {
 	border: none;
 	.global-session {
 		&:not(.la-community-italiana-di-wordpress-nel-2017-tra-team-globale-e-esperienze-locali-ita) {
-			background-color: $background-color_12;
-			color: $color_4;
+			background-color: $rosso_scuro_2;
+			color: $bianco;
 			td {
-				border-color: $border-color_3;
+				border-color: $bianco;
 			}
 		}
 	}
 	th {
 		text-transform: uppercase;
-		color: $color_10;
+		color: $rosso_scuro_2;
 		font-weight: 700;
 	}
 }
@@ -1447,13 +1438,13 @@ h2.padding-top-title {
 	padding-top: 160px;
 }
 #eu-cookie-law {
-	color: $color_1;
+	color: $grigio;
 	input {
-		color: $color_1;
+		color: $grigio;
 	}
 }
 .icon.icon-angle-down {
-	color: $color_4;
+	color: $bianco;
 }
 .blog {
 	.site-main {
@@ -1495,13 +1486,13 @@ li.ticket-css {
 	border-radius: 30px;
 	padding: 0 5px;
 	&:hover {
-		background-color: $background-color_4;
+		background-color: $bianco;
 		border-radius: 30px;
 		padding: 0 5px;
 	}
 }
 a.widget-tikets {
-	background-color: $background-color_3;
+	background-color: $rosso;
 	padding: 20px;
 	text-decoration: none;
 	border-radius: 30px;
@@ -1536,7 +1527,7 @@ a.imprint {
 .page-id-12 {
 	.entry-content {
 		h3 {
-			color: $color_13;
+			color: $rosso;
 			font-weight: bold;
 		}
 		ul {
@@ -1554,7 +1545,7 @@ a.imprint {
 	margin-bottom: 4em;
 }
 .sponsor-level {
-	color: $color_13 !important;
+	color: $rosso !important;
 	text-align: left;
 	border-top: 1px solid #d6d6d6;
 	padding-top: .5em;
@@ -1570,28 +1561,28 @@ a.imprint {
 		.main-navigation {
 			ul {
 				ul {
-					border-color: $border-color_3;
-					background: #da2901;
+					border-color: $bianco;
+					background: $rosso;
 				}
 				li.menu-item-has-children {
 					&:after {
-						border-bottom-color: $border-bottom-color_1;
+						border-bottom-color: $bianco;
 					}
 				}
 				li.page_item_has_children {
 					&:after {
-						border-bottom-color: $border-bottom-color_1;
+						border-bottom-color: $bianco;
 					}
 				}
 			}
 			li {
 				li {
 					&:hover {
-						background: #da2901;
+						background: $rosso;
 					}
 				}
 				li.focus {
-					background: #da2901;
+					background: $rosso;;
 				}
 			}
 		}
@@ -1903,7 +1894,7 @@ a.imprint {
 			ul {
 				display: none;
 				ul.sub-menu {
-					background-color: $background-color_3;
+					background-color: $rosso;
 				}
 			}
 			>div {
@@ -1919,7 +1910,6 @@ a.imprint {
 	.main-navigation {
 		ul {
 			ul {
-				background-color: $background-color_13;
 				a {
 					color: $color_11;
 				}
@@ -1928,7 +1918,7 @@ a.imprint {
 		li {
 			li {
 				&:hover {
-					background-color: $background-color_13;
+					background-color: transparent;
 				}
 			}
 		}
@@ -2145,7 +2135,7 @@ a.imprint {
 @media screen and (max-width: 1025px) {
 	.navigation-top {
 		.wrap {
-			background: #da2901;
+			background: $rosso;;
 			margin-top: 0;
 			max-width: 100%;
 		}
@@ -2154,7 +2144,7 @@ a.imprint {
 @media screen and (max-width: 1023px) {
 	.navigation-top {
 		.wrap {
-			background: #da2901;
+			background: $rosso;;
 			margin-top: -3px;
 		}
 	}
@@ -2178,12 +2168,12 @@ a.imprint {
 	}
 	.js {
 		.menu-toggle {
-			color: $color_4;
+			color: $bianco;
 		}
 		.main-navigation {
 			ul {
 				ul.sub-menu {
-					background-color: $background-color_3;
+					background-color: $rosso;
 				}
 			}
 		}
@@ -2218,20 +2208,20 @@ a.imprint {
 	}
 	body.has-header-image {
 		.site-description {
-			color: $color_4;
+			color: $bianco;
 			opacity: 1;
 			font-size: 170%;
-			font-family: $font-family_1;
+			font-family: $monserrat;
 			text-shadow: 1px 2px 1px #000;
 			text-align: center;
 		}
 	}
 	body.has-header-video {
 		.site-description {
-			color: $color_4;
+			color: $bianco;
 			opacity: 1;
 			font-size: 170%;
-			font-family: $font-family_1;
+			font-family: $monserrat;
 			text-shadow: 1px 2px 1px #000;
 			text-align: center;
 		}
@@ -2239,11 +2229,11 @@ a.imprint {
 	.colors-custom.has-header-image {
 		.site-title {
 			a {
-				color: $color_13;
+				color: $rosso;
 			}
 		}
 		.site-description {
-			color: $color_13;
+			color: $rosso;
 		}
 	}
 }
@@ -2254,7 +2244,7 @@ a.imprint {
 }
 @media screen and (max-width: 767px) {
 	li.ticket-css {
-		background-color: $background-color_13;
+		background-color: transparent;
 		border-radius: 0;
 		padding: 0;
 	}
