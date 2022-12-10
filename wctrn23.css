@@ -56,6 +56,10 @@ header .wp-block-cover .wp-block-cover__inner-container .wp-block-site-logo {
 
 footer {
   overflow-y: hidden;
+  overflow-x: hidden;
+}
+footer > div {
+  overflow-x: hidden;
 }
 footer .custom-divider {
   position: relative;

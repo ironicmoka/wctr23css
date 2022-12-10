@@ -62,6 +62,10 @@ header {
 
 footer {
   overflow-y: hidden;
+  overflow-x: hidden;
+  > div {
+    overflow-x: hidden;
+  }
   .custom-divider {
     position: relative;
     &:before {
