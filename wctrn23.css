@@ -42,7 +42,7 @@ header .wp-block-cover .wp-block-cover__inner-container:before {
   transform: rotate(-2deg) translateX(-50%);
   -webkit-transform: rotate(-2deg) translateX(-50%);
   -moz-transform: rotate(-2deg) translateX(-50%);
-  background-color: var(--blu);
+  background-color: #0C5299;
 }
 @media screen and (max-width: 768px) {
   header .wp-block-cover .wp-block-cover__inner-container:before {
@@ -71,7 +71,7 @@ footer .custom-divider:before {
   transform: rotate(-2deg) translateX(-50%);
   -webkit-transform: rotate(-2deg) translateX(-50%);
   -moz-transform: rotate(-2deg) translateX(-50%);
-  background-color: var(--giallo);
+  background-color: #FFDE00;
   z-index: -1;
 }
 @media screen and (max-width: 1024px) {
@@ -85,4 +85,4 @@ footer .custom-divider:before {
     top: 80px;
     height: 100px;
   }
-}/*# sourceMappingURL=wctrn23.css.map */
+}
