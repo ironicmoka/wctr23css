@@ -68,6 +68,14 @@ header {
   border-radius: 115px;
 }
 
+.tix_tickets_table{
+  width: 100%;
+}
+.tix_tickets_table.tix-tickets-list td, .tix_tickets_table.tix-tickets-list th,
+.tix_tickets_table.tix-order-summary td, .tix_tickets_table.tix-order-summary th {
+  text-align: right;
+}
+
 footer {
   overflow-y: hidden;
   overflow-x: hidden;
