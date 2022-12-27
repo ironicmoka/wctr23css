@@ -54,6 +54,10 @@ header .wp-block-cover .wp-block-cover__inner-container .wp-block-site-logo {
   z-index: 1;
 }
 
+.entry-content {
+  margin-top: 0;
+}
+
 footer {
   overflow-y: hidden;
   overflow-x: hidden;
