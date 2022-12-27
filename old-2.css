@@ -1,0 +1,1224 @@
+@charset "UTF-8";
+/* Custom CSS from torino.wordcamp.org */
+/* Regole Generali */
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+body.colors-custom, .colors-custom input, .colors-custom select, .colors-custom textarea, .colors-custom h3, .colors-custom h4, .colors-custom h6, .colors-custom label, .colors-custom .entry-title a, .colors-custom.twentyseventeen-front-page .panel-content .recent-posts article, .colors-custom .entry-footer .cat-links a, .colors-custom .entry-footer .tags-links a, .colors-custom .format-quote blockquote, .colors-custom .nav-title, .colors-custom .comment-body, .colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-album,
+.colors-custom .entry-content a, .colors-custom .entry-summary a, .colors-custom .comment-content a, .colors-custom .widget a, .colors-custom .site-footer .widget-area a, .colors-custom .posts-navigation a, .colors-custom .widget_authors a strong,
+.colors-custom.page:not(.twentyseventeen-front-page) .entry-title {
+  color: #333;
+}
+
+.colors-custom h5, .colors-custom .entry-meta, .colors-custom .entry-meta a, .colors-custom.blog .entry-meta a.post-edit-link, .colors-custom.archive .entry-meta a.post-edit-link, .colors-custom.search .entry-meta a.post-edit-link, .colors-custom .nav-subtitle, .colors-custom .comment-metadata, .colors-custom .comment-metadata a, .colors-custom .no-comments, .colors-custom .comment-awaiting-moderation, .colors-custom .page-numbers.current, .colors-custom .page-links .page-number, .colors-custom .navigation-top .current-menu-item > a, .colors-custom .navigation-top .current_page_item > a, .colors-custom .main-navigation a:hover, .colors-custom .site-content .wp-playlist-light .wp-playlist-current-item .wp-playlist-item-artist {
+  color: hsl(11deg, 99%, 43%);
+}
+
+.colors-custom input[type=text], .colors-custom input[type=email], .colors-custom input[type=url], .colors-custom input[type=password], .colors-custom input[type=search], .colors-custom input[type=number], .colors-custom input[type=tel], .colors-custom input[type=range], .colors-custom input[type=date], .colors-custom input[type=month], .colors-custom input[type=week], .colors-custom input[type=time], .colors-custom input[type=datetime], .colors-custom input[type=datetime-local], .colors-custom input[type=color], .colors-custom textarea, .colors-custom select, .colors-custom fieldset, .colors-custom .widget .tagcloud a:hover, .colors-custom .widget .tagcloud a:focus, .colors-custom .widget.widget_tag_cloud a:hover, .colors-custom .widget.widget_tag_cloud a:focus, .colors-custom .wp_widget_tag_cloud a:hover, .colors-custom .wp_widget_tag_cloud a:focus {
+  border-color: #666;
+}
+
+.colors-custom button, .colors-custom input[type=button], .colors-custom input[type=submit], .colors-custom .entry-footer .edit-link a.post-edit-link {
+  background-color: hsl(11deg, 99%, 43%);
+}
+
+.colors-custom hr {
+  background: #333;
+}
+
+.colors-custom input[type=text]:focus, .colors-custom input[type=email]:focus, .colors-custom input[type=url]:focus, .colors-custom input[type=password]:focus, .colors-custom input[type=search]:focus, .colors-custom input[type=number]:focus, .colors-custom input[type=tel]:focus, .colors-custom input[type=range]:focus, .colors-custom input[type=date]:focus, .colors-custom input[type=month]:focus, .colors-custom input[type=week]:focus, .colors-custom input[type=time]:focus, .colors-custom input[type=datetime]:focus, .colors-custom .colors-custom input[type=datetime-local]:focus, .colors-custom input[type=color]:focus, .colors-custom textarea:focus, .colors-custom button.secondary, .colors-custom input[type=reset], .colors-custom input[type=button].secondary, .colors-custom input[type=reset].secondary, .colors-custom input[type=submit].secondary, .colors-custom a, .colors-custom .site-title, .colors-custom .site-title a, .colors-custom .navigation-top a, .colors-custom .dropdown-toggle, .colors-custom .menu-toggle, .colors-custom .page .panel-content .entry-title, .colors-custom .page-title, .colors-custom.page:not(.twentyseventeen-front-page) .entry-title, .colors-custom .page-links a .page-number, .colors-custom .comment-metadata a.comment-edit-link, .colors-custom .comment-reply-link .icon, .colors-custom h2.widget-title, .colors-custom mark, .colors-custom .post-navigation a:focus .icon, .colors-custom .post-navigation a:hover .icon, .colors-custom .site-content .site-content-light, .colors-custom .twentyseventeen-panel .recent-posts .entry-header .edit-link {
+  color: #333333;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.colors-custom button {
+  border-radius: 31px;
+}
+
+.search-form .search-submit {
+  top: 19px;
+  border-radius: 30px;
+}
+
+.home .entry-content {
+  line-height: 1.7;
+  text-align: left;
+}
+
+.navigation-top {
+  background-color: #ff8200;
+  color: #fff;
+  border: none;
+}
+
+.site-navigation-fixed.navigation-top .wrap {
+  position: relative;
+  top: 15px;
+}
+
+.site-navigation-fixed.navigation-top .wrap:before {
+  background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+  background-size: contain;
+  display: block;
+  content: " ";
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  min-height: 75px;
+  width: 200px;
+}
+
+.site-header .menu-scroll-down {
+  display: none;
+}
+
+.navigation-top:before,
+.navigation-top:after {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  left: 50%;
+  position: absolute;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background-color: #da2901;
+}
+
+.navigation-top:before {
+  top: -68px;
+}
+
+.navigation-top:after {
+  bottom: -10px;
+}
+
+.navigation-top a {
+  color: #fff;
+  font-size: 1.1em;
+}
+
+@media screen and (min-width: 48em) {
+  .main-navigation a {
+    padding: 1em 0.5em;
+  }
+}
+.main-navigation ul ul {
+  background-color: #da2901;
+}
+
+.navigation-top nav {
+  float: right;
+  position: relative;
+  z-index: 10;
+}
+
+.navigation-top nav li.cta {
+  background-color: #fff;
+  border-radius: 30px;
+  transition: border-radius 300ms, background-color 600ms;
+}
+
+.navigation-top nav li.cta:hover {
+  background-color: #f9b90e;
+  border-radius: 6px;
+}
+
+.navigation-top nav li.cta a {
+  color: #a42840;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.has-header-video.twentyseventeen-front-page .custom-header {
+  position: relative;
+}
+
+/* Logo WCTRN */
+.home .custom-header:after {
+  display: block;
+  position: absolute;
+  content: "";
+  /*background-color: rgba(164, 40, 64, 0.55); */
+  background-repeat: no-repeat;
+  background-image: url("https://torino.wordcamp.org/2020/files/2021/09/Progetto-senza-titolo.png");
+  background-position: center 60%;
+  background-size: 50%;
+  width: 100%;
+  height: 60%;
+  top: 0;
+}
+
+.wp-custom-header .wp-custom-header-video-button  {
+  z-index: 5;
+}
+
+.has-header-image.twentyseventeen-front-page .site-branding,
+.has-header-video.twentyseventeen-front-page .site-branding {
+  /*bottom: -105px;*/
+  z-index: 4;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Titolo Sito */
+body.has-header-image .site-title a {
+  color: #fff;
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 300%;
+  text-shadow: 3px 3px 1px #000;
+  text-align: center;
+  display: none;
+}
+
+body.has-header-image .site-description, body.has-header-video .site-description {
+  color: #fff;
+  opacity: 1;
+  font-size: 300%;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1px 2px 1px #000;
+  text-align: center;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.page .panel-content .entry-content {
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.more-link {
+  background-color: #353535;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 12px 16px;
+  display: inline-block;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+a.more-link:hover {
+  background-color: #a42840;
+  box-shadow: none !important;
+  color: #fff;
+  text-decoration: none;
+}
+
+.more-link.disabled,
+a.more-link.disabled:hover {
+  background-color: #aaa;
+}
+
+.entry-content .more-link:before {
+  display: none;
+}
+
+.background-fixed .panel-image {
+  position: relative;
+}
+
+.background-fixed .panel-image:before,
+.background-fixed .panel-image:after {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background: #fff;
+}
+
+.background-fixed .panel-image:before {
+  top: -70px;
+}
+
+.background-fixed .panel-image:after {
+  bottom: -5px;
+}
+
+.site-footer {
+  background-color: #ff8200;
+  color: #fff;
+  position: relative;
+}
+
+.site-footer:before {
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  display: block;
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  background: #ff8200;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+}
+
+.site-footer .wrap {
+  position: relative;
+  z-index: 2;
+}
+
+.colors-custom .main-navigation a:hover,
+.colors-custom .navigation-top .current-menu-item > a,
+.colors-custom .navigation-top .current_page_item > a {
+  color: #ffe06c;
+  font-size: 1.1em;
+}
+
+.main-navigation ul li.menu-item-has-children::before,
+.main-navigation ul li.page_item_has_children::before {
+  border-color: transparent;
+}
+
+.main-navigation ul li.menu-item-has-children::after,
+.main-navigation ul li.page_item_has_children::after {
+  border-bottom-color: #fff;
+}
+
+.main-navigation ul ul {
+  border-color: #fff;
+}
+
+.main-navigation li li:hover {
+  background-color: #da2901;
+}
+
+/* fix for footer spagination */
+.site-content-contain {
+  overflow: hidden;
+}
+
+/* Homepage */
+.home .entry-content .lang {
+  display: none;
+}
+
+.home .entry-content p:first-of-type {
+  margin-bottom: 0;
+}
+
+.home a.more-link.cta,
+.home a.more-link {
+  background-color: #da2902;
+  color: #fff;
+}
+
+.home a.more-link.cta:hover,
+.home a.more-link:hover {
+  background-color: #ff8200;
+  color: #fff;
+}
+
+.home a.more-link.cta {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 20px;
+  transition: border-radius 300ms, color 500ms;
+}
+
+.home a.more-link.cta:hover {
+  border-radius: 6px;
+}
+
+.twentyseventeen-front-page.page-one-column .entry-header {
+  margin-bottom: 30px;
+}
+
+/* parallasse home */
+.background-fixed .panel-image:before,
+.background-fixed .panel-image:after,
+.panel-content {
+  background: #fff;
+}
+
+.panel-content,
+.panel-content a {
+  color: #333;
+}
+
+.page .panel-content .entry-title {
+  color: #da2902;
+  font-size: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.panel-content a {
+  box-shadow: inset 0 -1px 0 #da2901;
+}
+
+.panel-content a:hover {
+  color: #fff;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgb(255, 255, 255);
+}
+
+.panel-content a.more-link:hover {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 rgb(255, 255, 255);
+}
+
+.home #primary:after {
+  display: block;
+  content: "";
+  width: calc(100% + 20px);
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: rotate(-2deg) translateX(-50%);
+  -webkit-transform: rotate(-2deg) translateX(-50%);
+  -moz-transform: rotate(-2deg) translateX(-50%);
+  background: #fff;
+  margin-top: -65px;
+}
+
+/* Pagina Singola */
+.single-featured-image-header {
+  display: none;
+  visibility: hidden;
+  height: 0;
+}
+
+.entry-content ul {
+  margin-left: 48px;
+}
+
+.entry-content h3 {
+  color: #666;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.page:not(.home) .custom-header-media::before,
+.single .custom-header-media::before {
+  background-color: rgba(164, 40, 64, 0.55);
+}
+
+.page .navigation-top .wrap:before,
+.single .navigation-top .wrap:before {
+  background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+  background-size: contain;
+  content: "";
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  min-height: 75px;
+  width: 200px;
+  font-size: 180%;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 2px #da2902;
+}
+
+.page:not(.home) .navigation-top .wrap:before,
+.single .navigation-top .wrap:before {
+  display: block;
+}
+
+.custom-header-media:before {
+  background: none !important;
+}
+
+.has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+  -o-object-position: 0 76%;
+     object-position: 0 76%;
+}
+
+.custom-header .site-branding {
+  padding: 8em 0;
+}
+
+/* Pagina Sponsor */
+.page-slug-sponsors {
+  text-align: center;
+}
+
+.page-slug-sponsors .entry-content h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.wcorg-sponsors > div:not(:first-of-type) {
+  margin-top: 80px;
+  padding-top: 40px;
+}
+
+.wcorg-sponsor h3 {
+  display: none;
+  visibility: hidden;
+}
+
+p.ita,
+p.eng {
+  position: relative;
+}
+
+p.eng {
+  margin-top: 50px;
+}
+
+p.ita:before,
+p.eng:before {
+  display: block;
+  content: "";
+  position: absolute;
+  left: -40px;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/*
+p.ita:before {
+	background-image: url('https://2017.rome.wordcamp.org/files/2017/09/italy.png');
+}
+
+p.eng:before {
+	background-image: url('https://2017.rome.wordcamp.org/files/2017/09/united-kingdom.png');
+}*/
+/* Homepage */
+.home p.ita:before,
+.home p.eng:before {
+  display: none;
+}
+
+.home #post-386 .panel-image {
+  display: none;
+  visibility: hidden;
+}
+
+.sharedaddy {
+  padding-bottom: 48px;
+}
+
+.twentyseventeen-front-page .site-content,
+.page:not(.home) #content {
+  padding-bottom: 40px;
+}
+
+.menu-toggle {
+  color: #fff;
+}
+
+/* Pagina Ticket */
+.page-id-13 td strong {
+  display: inline-block;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.page-id-13 td .tix-ticket-excerpt {
+  font-size: 14px;
+}
+
+.page-id-13 td.tix-column-remaining {
+  text-align: center;
+}
+
+.page-id-13 td.tix-column-quantity {
+  text-align: right;
+}
+
+.page-id-13 input[type=submit] {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+
+.page-id-13 input[type=submit]:hover {
+  background-color: #f9b90e;
+  color: #a42840;
+}
+
+/* Footer */
+footer .widget .widget-title {
+  color: #f9b90e;
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+}
+
+/* Social Footer */
+.widget.widget_wpcom_social_media_icons_widget li {
+  border-bottom: none;
+  border-top: none;
+  box-shadow: none;
+  margin-right: 15px;
+}
+
+footer .widget.widget_wpcom_social_media_icons_widget li a {
+  border-bottom: none;
+  box-shadow: none;
+  font-size: 32px;
+  background: #fff;
+  border-radius: 50%;
+  color: #a42840;
+  padding: 8px;
+}
+
+footer .widget.widget_wpcom_social_media_icons_widget li a:hover {
+  color: #f9b90e;
+  box-shadow: 0 2px 0 #f9b90e;
+}
+
+/* Newsletter Footer */
+footer .jetpack_subscription_widget #subscribe-submit input {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+}
+
+footer .jetpack_subscription_widget #subscribe-submit input:hover {
+  background-color: #f9b90e;
+  color: #a42840;
+}
+
+/* Moduli */
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=tel],
+input[type=range],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=submit],
+input[type=datetime],
+input[type=datetime-local],
+input[type=color],
+textarea {
+  border-radius: 30px;
+  font-family: Raleway, sans-serif;
+}
+
+input[type=submit] {
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: #f9b90e;
+  color: #a42840;
+}
+
+label {
+  padding-bottom: 10px;
+}
+
+/* loghetto nav solo su mobile */
+@media screen and (max-width: 766px) {
+  .page .navigation-top .wrap::before,
+.home .navigation-top .wrap::before,
+.single .navigation-top .wrap::before,
+.archive .navigation-top .wrap::before {
+    background: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png") no-repeat left center;
+    background-size: auto auto;
+    background-size: contain;
+    content: " ";
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    min-height: 75px;
+    /*width: 250px;*/
+    display: block;
+    left: 50px;
+    width: calc(100% - 100px);
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .page .navigation-top .wrap::before,
+.home .navigation-top .wrap::before,
+.single .navigation-top .wrap::before,
+.archive .navigation-top .wrap::before {
+    background: none;
+  }
+}
+#tix-attendees .tix-columns-3 li {
+  width: calc(33.3333333333% - 15px);
+}
+
+#tix-attendees li {
+  margin: 0 7.5px 15px;
+  background-color: #eee;
+  padding: 10px;
+}
+
+#tix-attendees li a.tix-field {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: none;
+}
+
+#tix-attendees li a.tix-field:hover {
+  text-decoration: underline;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.page.page-slug-attendees .entry-header {
+  margin: 0;
+}
+
+.page.page-slug-schedule:not(.twentyseventeen-front-page) #primary {
+  max-width: 100%;
+}
+
+table.wcpt-schedule,
+table.wcpt-schedule th,
+table.wcpt-schedule td {
+  border: 1px solid #8e001c;
+  text-align: center;
+}
+
+.wcpt-schedule td,
+.wcpt-schedule td:first-child,
+.wcpt-schedule td:last-child {
+  padding: 0.6em;
+}
+
+table.wcpt-schedule tr.even,
+table.wcpt-schedule tr.alt,
+table.wcpt-schedule tr:nth-of-type(2n) {
+  background: #ffe8be;
+}
+
+.wcpt-schedule {
+  border: none;
+}
+
+.wcpt-schedule td a {
+  display: block;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  transition: none;
+  font-weight: 600;
+}
+
+.wcpt-schedule td a:hover {
+  text-decoration: underline;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.wcpt-session-speakers {
+  font-size: 12px;
+}
+
+.wcpt-schedule .global-session:not(.la-community-italiana-di-wordpress-nel-2017-tra-team-globale-e-esperienze-locali-ita) {
+  background-color: #8e001c;
+  color: #fff;
+}
+
+.wcpt-schedule .global-session:not(.la-community-italiana-di-wordpress-nel-2017-tra-team-globale-e-esperienze-locali-ita) td {
+  border-color: #fff;
+}
+
+.wcpt-schedule th {
+  text-transform: uppercase;
+  color: #8e001c;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .twentyseventeen-front-page .custom-header::after {
+    left: 0;
+    background-size: 48%;
+    background-position: center center;
+  }
+  .has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header,
+.has-header-image.home.blog .custom-header,
+.has-header-video.home.blog .custom-header {
+    display: block;
+  }
+  .has-header-image.twentyseventeen-front-page .site-branding,
+.has-header-video.twentyseventeen-front-page .site-branding {
+    display: none;
+  }
+  .has-header-image.twentyseventeen-front-page .custom-header,
+.has-header-video.twentyseventeen-front-page .custom-header,
+.has-header-image.home.blog .custom-header,
+.has-header-video.home.blog .custom-header {
+    height: auto;
+  }
+  .has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.custom-header-media {
+    position: static;
+    vertical-align: middle;
+  }
+  .twentyseventeen-front-page.has-header-image .custom-header-media,
+.twentyseventeen-front-page.has-header-video .custom-header-media,
+.home.blog.has-header-image .custom-header-media,
+.home.blog.has-header-video .custom-header-media,
+.admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
+.admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media,
+.admin-bar.home.blog.has-header-image .custom-header-media,
+.admin-bar.home.blog.has-header-video .custom-header-media {
+    height: auto;
+  }
+  .navigation-top::before,
+.navigation-top::after {
+    display: none;
+  }
+  #masthead .wrap {
+    min-height: 75px;
+  }
+  .js .menu-toggle {
+    height: 75px;
+    float: right;
+    margin: 0;
+    outline: none;
+    display: block;
+  }
+  .navigation-top nav {
+    float: none;
+  }
+  .menu-primary-container {
+    clear: both;
+  }
+  .main-navigation ul ul {
+    background-color: transparent;
+  }
+  .main-navigation li li:hover {
+    background-color: transparent;
+  }
+  .js .main-navigation ul,
+.js .main-navigation > div > ul {
+    display: none;
+  }
+  .js .main-navigation ul ul.sub-menu {
+    background-color: #da2901;
+  }
+  .main-navigation ul ul a,
+.navigation-top a {
+    color: #222;
+  }
+  .main-navigation ul.sub-menu a:hover,
+.main-navigation ul.sub-menu a:focus {
+    color: #fac20a;
+  }
+}
+.wcb-session-favourite-icon {
+  display: none;
+}
+
+@media screen and (max-width: 1300px) {
+  .has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 81%;
+       object-position: 0 81%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 86%;
+       object-position: 0 86%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .custom-header .site-branding {
+    padding: 7em 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  .has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 110%;
+       object-position: 0 110%;
+  }
+}
+@media screen and (max-width: 47.999em) {
+  .has-header-image .custom-header-media img,
+.has-header-video .custom-header-media video,
+.has-header-video .custom-header-media iframe,
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+    -o-object-position: 0 66%;
+       object-position: 0 66%;
+  }
+  .custom-header .site-branding {
+    padding: 1em 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  p.ita::before,
+p.eng::before {
+    position: static;
+    left: auto;
+  }
+  .custom-header {
+    display: none;
+  }
+  .page .navigation-top .wrap::before,
+.single .navigation-top .wrap::before,
+.archive .navigation-top .wrap::before {
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+  }
+  .navigation-top nav {
+    padding-top: 75px;
+  }
+  .js .menu-toggle {
+    height: auto;
+    float: none;
+    padding: 17px 14px;
+    margin: 0 auto;
+  }
+  #tix-attendees .tix-columns-3 li {
+    width: calc(50% - 15px);
+  }
+}
+/* CSS personalizzato da 2020.torino.wordcamp.org */
+.displeibloc {
+  display: block !important;
+}
+
+.site-branding a:hover, .site-branding a:focus {
+  opacity: 1;
+}
+
+.main-navigation li li:hover {
+  background-color: #da2901;
+}
+
+.colors-custom .page .panel-content .entry-title {
+  color: #da2902;
+}
+
+.colors-custom h2, .colors-custom blockquote, .colors-custom input[type=text], .colors-custom input[type=email], .colors-custom input[type=url], .colors-custom input[type=password], .colors-custom input[type=search], .colors-custom input[type=number], .colors-custom input[type=tel], .colors-custom input[type=range], .colors-custom input[type=date], .colors-custom input[type=month], .colors-custom input[type=week], .colors-custom input[type=time], .colors-custom input[type=datetime], .colors-custom input[type=datetime-local], .colors-custom input[type=color], .colors-custom textarea, .colors-custom .site-description, .colors-custom .entry-content blockquote.alignleft, .colors-custom .entry-content blockquote.alignright, .colors-custom .colors-custom .taxonomy-description, .colors-custom .wp-caption, .colors-custom .gallery-caption {
+  color: #666;
+}
+
+.colors-custom h2 {
+  font-weight: 900;
+}
+
+.colors-custom .site-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.colors-custom .site-info a:hover {
+  color: #fff;
+}
+
+.site-info a {
+  box-shadow: none;
+}
+
+.colors-custom .site-info a:hover {
+  box-shadow: inset 0 0 0 #fff, 0 1px 0 #fff;
+}
+
+.colors-custom .main-navigation ul {
+  background: rgba(255, 255, 255, 0);
+}
+
+.colors-custom .navigation-top a {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+@media screen and (min-width: 48em) {
+  .colors-custom .main-navigation ul ul {
+    border-color: #fff;
+    background: #da2901;
+  }
+}
+.colors-custom .navigation-top ul ul a {
+  color: #fff;
+}
+
+.colors-custom .navigation-top ul ul a:hover {
+  color: #ffe06c;
+}
+
+h2.padding-top-title {
+  padding-top: 160px;
+}
+
+#eu-cookie-law,
+#eu-cookie-law input {
+  color: #333;
+}
+
+@media screen and (min-width: 48em) {
+  .colors-custom .main-navigation li li:hover, .colors-custom .main-navigation li li.focus {
+    background: #da2901;
+  }
+}
+@media screen and (min-width: 48em) {
+  .colors-custom .main-navigation ul li.menu-item-has-children:after, .colors-custom .main-navigation ul li.page_item_has_children:after {
+    border-bottom-color: #fff;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .navigation-top .wrap {
+    background: #da2901;
+    margin-top: 0;
+  }
+  .navigation-top .wrap {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .navigation-top .wrap {
+    background: #da2901;
+    margin-top: -3px;
+  }
+  .page .navigation-top .wrap:before, .single .navigation-top .wrap:before {
+    font-size: 170%;
+  }
+  .js .menu-toggle {
+    color: #fff;
+  }
+  .js .main-navigation ul ul.sub-menu {
+    background-color: #da2901;
+  }
+  .site-navigation-fixed.navigation-top .wrap {
+    top: 0;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  /*.js .main-navigation.toggled-on > div > ul {
+  																padding-top: 35px;
+  															}*/
+  .colors-custom .menu-toggle, .colors-custom .menu-toggle:hover {
+    margin-top: -10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrap {
+    max-width: 1000px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: 18px;
+    font-size: 0.9rem;
+  }
+  body.has-header-image .site-description, body.has-header-video .site-description {
+    color: #fff;
+    opacity: 1;
+    font-size: 170%;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1px 2px 1px #000;
+    text-align: center;
+  }
+  .colors-custom.has-header-image .site-title a, .colors-custom.has-header-image .site-description {
+    color: #da2901;
+  }
+}
+body:not(.title-tagline-hidden) .site-branding-text {
+  display: none;
+}
+
+@media screen and (max-width: 766px) {
+  .site-branding {
+    display: none !important;
+  }
+}
+.icon.icon-angle-down {
+  color: #fff;
+}
+
+.blog .site-main > article, .archive .site-main > article, .search .site-main > article {
+  margin-bottom: 5em;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 3em;
+}
+
+@media screen and (min-width: 48em) {
+  .has-sidebar #secondary {
+    width: 29%;
+  }
+  .has-sidebar:not(.error404) #primary {
+    width: 66%;
+  }
+}
+.wp-block-image img {
+  width: 100%;
+}
+
+h2.widget-title {
+  font-size: 1em;
+}
+
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img {
+  -o-object-position: 0 40%;
+     object-position: 0 40%;
+}
+
+li.ticket-css {
+  background-color: #f87e15;
+  border-radius: 30px;
+  padding: 0 5px;
+}
+
+li.ticket-css:hover {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 0 5px;
+}
+
+.colors-custom .main-navigation .ticket-css a:hover {
+  color: #da2901;
+}
+
+a.widget-tikets {
+  background-color: #da2901;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.colors-custom .widget a.widget-tikets {
+  color: #fff;
+}
+
+@media screen and (max-width: 769px) {
+  a.widget-tikets {
+    font-size: 0.7em;
+  }
+}
+@media screen and (max-width: 767px) {
+  li.ticket-css {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+  }
+}
+input#tix-coupon-input {
+  margin-bottom: 10px;
+}
+
+#tix .tix-submit .tix-checkout-button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 0 none;
+  border-radius: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  clear: both;
+  display: block;
+  float: right;
+  margin-top: 20px;
+}
+
+a.imprint:after {
+  content: " - photo credits Pietro Cardone";
+  font-size: 90%;
+}
+
+.colors-custom .site-info a:hover {
+  box-shadow: inset 0 0 0 #fff, 0 0 0 #fff;
+}
+
+/* Organizers page */
+.page-id-12 .entry-content h3 {
+  color: #da2901;
+  font-weight: bold;
+}
+
+.page-id-12 img.avatar.avatar-150.photo {
+  border-radius: 50%;
+  border: 1px solid #e2e2e2;
+  padding: 6px;
+  width: 200px;
+}
+
+.wordcamp-organizer.wordcamp-organizers__post {
+  margin-bottom: 4em;
+}
+
+.page-id-12 .entry-content ul {
+  margin-left: 0;
+}
+
+/* Sponsor Page */
+.sponsor-level {
+  color: #da2901 !important;
+  text-align: left;
+  border-top: 1px solid #d6d6d6;
+  padding-top: 0.5em;
+  margin-top: 2em;
+}
+
+.colors-custom .menu-toggle {
+  color: #fff;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+  .page:not(.home) .custom-header:after,
+.single .custom-header:after {
+    display: block;
+    position: absolute;
+    content: "";
+    /* background-color: rgba(164, 40, 64, 0.55); */
+    background-repeat: no-repeat;
+    background-image: url("https://2020.torino.wordcamp.org/files/2020/01/logo-orizzontale-bianco-800.png");
+    background-position: center 35%;
+    background-size: 40%;
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+}
+.colors-custom .navigation-top .current-menu-item > a, .colors-custom .navigation-top .current_page_item > a {
+  color: #f87e15 !important;
+}
+
+.colors-custom .entry-meta a {
+  color: #da2901 !important;
+}
