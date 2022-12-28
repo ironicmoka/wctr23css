@@ -128,6 +128,10 @@ footer .custom-divider:before {
   min-width: 100%;
   text-align: center;
 }
+.has-modal-open .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-container {
+  min-width: 100% !important;
+  padding: 0 !important;
+}
 
 /**
 * Sidebar

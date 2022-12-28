@@ -132,6 +132,10 @@ footer {
           }
         }
       }
+      .wp-block-navigation__submenu-container {
+        min-width: 100%!important;
+        padding: 0!important;
+      }
     }
   }
 }
