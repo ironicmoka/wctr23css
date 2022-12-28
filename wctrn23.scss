@@ -115,13 +115,20 @@ footer {
       .wp-block-navigation__container,
       .wp-block-navigation__submenu-container {
         width: 100%;
+        min-width: 100%;
+        padding: 0;
         list-style: none;
         .wp-block-navigation-item {
           width: 100%;
           a {
             width: 100%;
+            min-width: 100%;
             text-align: center;
-            font-size: 1.3rem;  
+            font-size: 1.3rem;
+            span {
+              min-width: 100%;
+              text-align: center;
+            }
           }
         }
       }
