@@ -112,7 +112,8 @@ footer {
 .has-modal-open {
   .wp-block-navigation__responsive-dialog {
     .wp-block-navigation__responsive-container-content {
-      .wp-block-navigation__container {
+      .wp-block-navigation__container,
+      .wp-block-navigation__submenu-container {
         width: 100%;
         list-style: none;
         .wp-block-navigation-item {
