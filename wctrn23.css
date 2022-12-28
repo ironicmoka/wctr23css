@@ -22,6 +22,9 @@ body, h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif !important;
 }
 
+/**
+* Header
+*/
 header .wp-block-cover {
   display: flex;
   flex-flow: column;
@@ -62,15 +65,6 @@ header .wp-block-cover .wp-block-cover__inner-container .wp-block-site-logo {
   border-radius: 115px;
 }
 
-.tix_tickets_table {
-  width: 100%;
-}
-
-.tix_tickets_table.tix-tickets-list td, .tix_tickets_table.tix-tickets-list th,
-.tix_tickets_table.tix-order-summary td, .tix_tickets_table.tix-order-summary th {
-  text-align: right;
-}
-
 footer {
   overflow-y: hidden;
   overflow-x: hidden;
@@ -106,4 +100,112 @@ footer .custom-divider:before {
     top: 80px;
     height: 100px;
   }
+}
+
+/**
+* Menu mobile
+*/
+.has-modal-open .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-content .wp-block-navigation__container {
+  width: 100%;
+  list-style: none;
+}
+.has-modal-open .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item {
+  width: 100%;
+}
+.has-modal-open .wp-block-navigation__responsive-dialog .wp-block-navigation__responsive-container-content .wp-block-navigation__container .wp-block-navigation-item a {
+  width: 100%;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/**
+* Sidebar
+*/
+#sidebar h3,
+#sidebar h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+}
+#sidebar h5,
+#sidebar p,
+#sidebar .wp-block-query {
+  margin-top: 5px;
+}
+
+/**
+* Form
+*/
+.tix_tickets_table {
+  width: 100%;
+}
+
+.tix_tickets_table.tix-tickets-list td, .tix_tickets_table.tix-tickets-list th,
+.tix_tickets_table.tix-order-summary td, .tix_tickets_table.tix-order-summary th {
+  text-align: right;
+}
+
+table.tix_tickets_table.tix-tickets-list,
+.tix_tickets_table tr, .tix_tickets_table td,
+.tix_tickets_table th {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  padding: 7px;
+}
+
+.page-id-13 select {
+  -webkit-appearance: auto;
+     -moz-appearance: auto;
+          appearance: auto;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 2px 7px;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+.page-id-13 input[value^=Reg],
+.page-id-13 input[value^=Ric] {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: #185297;
+  color: #fddf35;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+.page-id-13 input[value^=Reg]:hover,
+.page-id-13 input[value^=Ric]:hover {
+  background-color: #fddf35;
+  color: #185297;
+}
+.page-id-13 input[name=tix_coupon_submit] {
+  font-family: "Montserrat", sans-serif;
+  padding: 9px 15px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  text-decoration: underline;
+}
+.page-id-13 input[name=tix_coupon_submit]:hover {
+  color: #185297;
+  cursor: pointer;
+}
+
+input#tix-coupon-input {
+  padding: 13px;
+}
+
+table.tix_tickets_table.tix-order-summary,
+table.tix_tickets_table.tix-attendee-form {
+  border-collapse: collapse;
+}
+
+input[name^=tix_attendee],
+input[name^=invoice] {
+  padding: 7px;
 }
