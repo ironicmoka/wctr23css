@@ -38,10 +38,10 @@ header .wp-block-cover .wp-block-cover__inner-container:before {
   display: block;
   content: "";
   width: calc(100% + 100px);
-  height: 180px;
+  height: 220px;
   left: calc(50% - 10px);
   position: absolute;
-  top: -80px;
+  top: -60px;
   transform: rotate(-2deg) translateX(-50%);
   -webkit-transform: rotate(-2deg) translateX(-50%);
   -moz-transform: rotate(-2deg) translateX(-50%);
@@ -49,8 +49,8 @@ header .wp-block-cover .wp-block-cover__inner-container:before {
 }
 @media screen and (max-width: 768px) {
   header .wp-block-cover .wp-block-cover__inner-container:before {
-    height: 100px;
-    top: -30px;
+    height: 140px;
+    top: -10px;
   }
 }
 header .wp-block-cover .wp-block-cover__inner-container .wp-block-site-logo {
@@ -223,4 +223,32 @@ table.tix_tickets_table.tix-attendee-form {
 input[name^=tix_attendee],
 input[name^=invoice] {
   padding: 7px;
+}
+
+/* author post */
+.wp-block-post-author-name {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.wp-block-post-author-name:before {
+  font-style: italic;
+  content: "by ";
+}
+
+/* call for speaker form */
+p.speaker-form-field-description {
+  margin-top: -20px;
+}
+
+/*Blockquote */
+blockquote.wp-block-quote {
+  border-left: 4px solid #185297;
+}
+
+/*FigCaption */
+figcaption {
+  text-align: center;
+  font-size: 14px;
 }
