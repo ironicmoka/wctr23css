@@ -41,7 +41,7 @@ header .wp-block-cover .wp-block-cover__inner-container:before {
   height: 220px;
   left: calc(50% - 10px);
   position: absolute;
-  top: -60px;
+  top: -80px;
   transform: rotate(-2deg) translateX(-50%);
   -webkit-transform: rotate(-2deg) translateX(-50%);
   -moz-transform: rotate(-2deg) translateX(-50%);
@@ -50,7 +50,7 @@ header .wp-block-cover .wp-block-cover__inner-container:before {
 @media screen and (max-width: 768px) {
   header .wp-block-cover .wp-block-cover__inner-container:before {
     height: 140px;
-    top: -10px;
+    top: -30px;
   }
 }
 header .wp-block-cover .wp-block-cover__inner-container .wp-block-site-logo {
