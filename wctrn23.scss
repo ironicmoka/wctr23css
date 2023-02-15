@@ -261,3 +261,17 @@ figcaption {
 	text-align: center;
 	font-size: 14px;
 }
+
+/*Featured image*/
+.alignwide.wp-block-post-featured-image {
+  display: flex;
+  justify-content: center;
+}
+
+.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+  width: auto;
+}
+
+.wp-block-post-featured-image .wp-block-post-featured-image__overlay {
+  display: none;
+}
